@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("img/grand-place-chimay.svg");
+    color: #25419B;
+    
+    background-position: center;
+    background-size: cover;
+    
+  }
+  
+  .main-title{
+    
+    font-family: 'Parisienne', cursive !important;
+    font-size: 700%;
+    font-weight: 500;
+    padding-top: 10%;
+   
+  }
+  
+  .main-img {
+      padding-bottom: 15%;
+  }
+  
+  .main-button {
+    background: #801914 !important;
+    width: 50%;
+    height: 100%;
+    border: 5px solid #A77C51;
+    font-size: 50px;
+    font-family: 'Parisienne', cursive !important;
+    font-weight: 900;
+    
+  }
+  
+  .main-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    padding-top: 6%;
+  }
+ 
+  .main-text2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 6%;
+    font-family: 'Parisienne', cursive !important;
+    font-size: 250%;
+    border-bottom: 4px solid #801914;
+
+  }
