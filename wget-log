@@ -1,0 +1,21 @@
+--2021-02-03 11:11:19--  https://www.dropbox.com/sh/zgxpx85i6dvfuk9/AAAXEh50WXOu3KtvwOKTy0OIa/Donn%C3%A9es%20Chimay?dl=0&preview=DB+-+Chimay+Centre+-+OpenData+-+v1.0+-+20210202-18h25.csv
+Resolving www.dropbox.com (www.dropbox.com)... 162.125.66.18, 2620:100:6021:18::a27d:4112
+Connecting to www.dropbox.com (www.dropbox.com)|162.125.66.18|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /sh/raw/zgxpx85i6dvfuk9/AAAXEh50WXOu3KtvwOKTy0OIa/Donn%C3%A9es%20Chimay [following]
+--2021-02-03 11:11:24--  https://www.dropbox.com/sh/raw/zgxpx85i6dvfuk9/AAAXEh50WXOu3KtvwOKTy0OIa/Donn%C3%A9es%20Chimay
+Reusing existing connection to www.dropbox.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://uc6e304499a02cc631adfddeb06f.dl.dropboxusercontent.com/zip_download_get/Ark_mvPBBC3qy06vtxj-cpSCJRgHKp5H0bU0FajdHx7H-74VbE8YaLChYGjfjijy0ObrzD5w5dc3oBuePuGV5kbgc6KvjRFmlJi8OcoNJ91jbQ [following]
+--2021-02-03 11:11:25--  https://uc6e304499a02cc631adfddeb06f.dl.dropboxusercontent.com/zip_download_get/Ark_mvPBBC3qy06vtxj-cpSCJRgHKp5H0bU0FajdHx7H-74VbE8YaLChYGjfjijy0ObrzD5w5dc3oBuePuGV5kbgc6KvjRFmlJi8OcoNJ91jbQ
+Resolving uc6e304499a02cc631adfddeb06f.dl.dropboxusercontent.com (uc6e304499a02cc631adfddeb06f.dl.dropboxusercontent.com)... 162.125.66.15, 2620:100:6021:15::a27d:410f
+Connecting to uc6e304499a02cc631adfddeb06f.dl.dropboxusercontent.com (uc6e304499a02cc631adfddeb06f.dl.dropboxusercontent.com)|162.125.66.15|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 90923 (89K) [application/zip]
+Saving to: ‘Données Chimay?dl=0&preview=DB+-+Chimay+Centre+-+OpenData+-+v1.0+-+20210202-18h25.csv’
+
+        Données Chi  44%[=======>            ]  39.53K  17.8KB/s                      Données Chim  62%[===========>        ]  55.53K  18.7KB/s                     Données Chima  80%[===============>    ]  71.53K  21.7KB/s    eta 1s     Données Chimay?dl=0 100%[===================>]  88.79K  27.0KB/s    in 3.3s    
+
+Last-modified header missing -- time-stamps turned off.
+2021-02-03 11:11:30 (27.0 KB/s) - ‘Données Chimay?dl=0&preview=DB+-+Chimay+Centre+-+OpenData+-+v1.0+-+20210202-18h25.csv’ saved [90923/90923]
+
