@@ -16,5 +16,5 @@ Nous avons repris la palette de couleurs présente sur [Chimay.com](https://chim
 
 **#801914** qui est le code couleur correspondant à la [Chimay rouge](https://chimay.com/bieres/rouge/)
 
-**#FFFFF** qui est le code couleur correspondant à la [Chimay triple](https://chimay.com/bieres/blanche/)
+**#FFFDFD** qui est le code couleur correspondant à la [Chimay triple](https://chimay.com/bieres/blanche/)
 
