@@ -10,7 +10,7 @@
     
     background-position: center;
     background-size: cover;
-    
+    padding-top: 40px;
   }
   
   .main-title{
@@ -18,12 +18,13 @@
     font-family: 'Parisienne', cursive !important;
     font-size: 700%;
     font-weight: 500;
-    padding-top: 10%;
+    
    
   }
   
   .main-img {
-      padding-bottom: 15%;
+    padding-top: 35px;
+      padding-bottom: 80px;
   }
   
   .main-button {
@@ -40,13 +41,13 @@
   .main-text {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    padding-top: 6%;
+    padding-top: 60px;
   }
  
   .main-text2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    padding-top: 6%;
+    padding-top: 60px;
     font-family: 'Parisienne', cursive !important;
     font-size: 250%;
     border-bottom: 4px solid #801914;
