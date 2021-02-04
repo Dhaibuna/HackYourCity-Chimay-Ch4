@@ -24,19 +24,21 @@ body, html {
   font-family: 'Parisienne', cursive !important;
  
   font-weight: 500;
-  padding-top: 5%;
+  
   font-size:5vw !important;
  
 }
 @media (max-width: 620px) {
   .main-title {
     font-size:15vw !important;
+    padding-top: 1%;
   }
 }
 
 @media (min-width:621px) {
   .main-title {
     font-size:5vw !important;
+    padding-top: 5%;
   }
 }
 
