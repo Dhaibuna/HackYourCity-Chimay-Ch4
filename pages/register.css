@@ -54,6 +54,9 @@
     border-right: none !important;
     border-color: #801914 !important;
     outline: none !important;
+    color:#25419B !important;
+    /* backdrop-filter: blur(5px) !important;
+     background: rgba(255,255,255,0.5) !important;  */
    }
 
    input,
@@ -61,8 +64,22 @@ input::-webkit-input-placeholder {
     font-size: 35px !important;
     font-family: 'Parisienne', cursive !important;
     text-align: center;
+   
 
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white !important;
+}
+
   
   .main-title{
     font-family: 'Parisienne', cursive !important;
@@ -78,36 +95,38 @@ input::-webkit-input-placeholder {
   .main-button {
     background: #801914 !important;
     border: 5px solid #A77C51;
-    
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-   padding: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
   }
-  
- 
-  
+
   .main-text {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     padding-top: 60px;
   }
 
-
   .main-social-media-icon {
   padding-right: 5%;
   opacity: 0;
   background-color: red !important;
   }
-
-  .main-social-media-icon2 {
-  padding-left: 5%;
-  opacity: 0;
-  }
-
   
+  .main-social-media-icon2 {
+    margin: 2% 3% 0% 3%;
+ 
+    padding:10px;
 
-  i {
-    background: red !important;
+  background-color:  #801914 !important; 
+  height: auto;
+  width:auto;
+  border-radius: 50%;
   }
 
+  .main-social-media-icon2 i{
  
+    color:rgb(230, 166, 166);
+    height: 100%;
+    width:100%;
+    }
+  
