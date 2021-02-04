@@ -13,7 +13,7 @@
             
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="favoris.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet"/>
@@ -25,36 +25,41 @@
 <div class="container">
 
     <div class="row">
-        <div class="card-title d-flex justify-content-center col-12">
-            <h1 class="main-title d-flex justify-content-center">Chimai</h1>
+        <div class="card-title d-flex justify-content-start col-6">
+            <h1 class="main-title d-flex justify-content-center">Chimai</h1>     
+        </div>
+        <div class="card-link main-sidebar col-6">
+                <div class=" d-flex flex-row">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="mdp" class="form-control" id="exampleFormControlInput1" placeholder=""><img class="main-sidebar-img" src="img/loupe.png" alt="Loupe">
+            </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="card-body col-12 ">
-            <div class="mb-5">
-                <label for="exampleFormControlInput1" class="form-label d-flex justify-content-center col-12"></label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nom d'utilisateur">
-            </div>
-            <div class="mb-5">
-                <label for="exampleFormControlInput1" class="form-label"></label>
-                <input type="mdp" class="form-control" id="exampleFormControlInput1" placeholder="Mot de passe">
-            </div>
-        </div>
+    
+    <div class="card-img d-flex justify-content-start">
+        <img class="main-img" src="img/blason-chimay.svg" alt="blason">
     </div>
-        
-    <div class="row">
-            <div class="card-button d-flex justify-content-center col-12">
-                <button type="button" class="btn btn-danger main-button">Entrer</button>
-            </div>
+
+
+   
+        <div class="card-text d-flex justify-content-center">
+
+<h2 class="main-title2">Quel bon vent t'amènes, étranger ?</h2>
         </div>
+  
         
-        <div class="row">
-        <div class="card-text d-flex main-social-media justify-content-center col-12">
-    <div class="main-social-media-icon2"><i class="fab fa-facebook-f fa-3x"></i></div>
-    <div class="main-social-media-icon2"><i class="fab fa-google fa-3x "></i></div>
-            </div>
-        </div>
+   
+    <div class="card-button d-flex flex-column col-4">
+        <button type="button" class="btn btn-danger  mb-4">Danger</button>
+        <button type="button" class="btn btn-warning mb-4">Warning</button>
+        <button type="button" class="btn btn-warning mb-4">Warning</button>
+        <button type="button" class="btn btn-danger mb-4">Danger</button>
+        <button type="button" class="btn btn-danger mb-4">Danger</button>
+        <button type="button" class="btn btn-warning mb-4">Warning</button>
+    
+</div>
+       
 
 </div>
 </body>
