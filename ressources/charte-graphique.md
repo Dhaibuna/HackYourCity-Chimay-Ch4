@@ -18,3 +18,5 @@ Nous avons repris la palette de couleurs présente sur [Chimay.com](https://chim
 
 **#FFFDFD** qui est le code couleur correspondant à la [Chimay triple](https://chimay.com/bieres/blanche/)
 
+**DACCBE** qui est une variante un peu plus clair de **#A77C51** pour la couleur des fonds d'écrans.
+
