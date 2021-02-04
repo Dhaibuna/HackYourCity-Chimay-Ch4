@@ -5,21 +5,69 @@
   }
   
   body {
-    background: url("img/grand-place-chimay.svg");
-    color: #25419B;
-    
-    background-position: center;
-    background-size: cover;
-    padding-top: 40px;
+    background: url("img/chateau-chimay.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #25419B;
+  padding-top: 4%;
+
+  }
+
+  @media (max-width: 1024px) {
+    .main-title {
+      font-size:15vw !important;
+      padding-top: 5%;
+    }
   }
   
-  .main-title{
+  @media (min-width:1025px) {
+    .main-title {
+      font-size:5vw !important;
+      padding-top: 1%;
+    }
+  }
+
+  @media (max-width:620px) {
     
+    .main-button {
+      width: 50%;
+      font-size: 5vw;
+      margin-top: 15%;
+    }
+  }
+  
+  @media (min-width:621px) {
+    .main-button {
+      width: 40%;
+      font-size: 1.8vw;
+      margin-top: 5%;
+    }
+  }
+
+  input {
+    background: transparent !important;
+    
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-color: #801914 !important;
+    outline: none !important;
+   }
+
+   input,
+input::-webkit-input-placeholder {
+    font-size: 35px !important;
+    font-family: 'Parisienne', cursive !important;
+    text-align: center;
+
+}
+  
+  .main-title{
     font-family: 'Parisienne', cursive !important;
     font-size: 700%;
     font-weight: 500;
-    
-   
   }
   
   .main-img {
@@ -29,14 +77,14 @@
   
   .main-button {
     background: #801914 !important;
-    width: 50%;
-    height: 100%;
     border: 5px solid #A77C51;
-    font-size: 50px;
-    font-family: 'Parisienne', cursive !important;
-    font-weight: 900;
     
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+   padding: 1% 1% 1% 1%;
   }
+  
+ 
   
   .main-text {
     font-family: 'Raleway', sans-serif;
@@ -44,13 +92,22 @@
     padding-top: 60px;
   }
 
- 
-  /*.main-text2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    padding-top: 60px;
-    font-family: 'Parisienne', cursive !important;
-    font-size: 250%;
-    border-bottom: 4px solid #801914;
+
+  .main-social-media-icon {
+  padding-right: 5%;
+  opacity: 0;
+  background-color: red !important;
+  }
+
+  .main-social-media-icon2 {
+  padding-left: 5%;
+  opacity: 0;
+  }
+
   
-  }*/
+
+  i {
+    background: red !important;
+  }
+
+ 
