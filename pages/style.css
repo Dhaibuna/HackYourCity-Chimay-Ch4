@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("img/chateau-chimay.png") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center center;
+
+ 
+}
+
+.main-title {
+  color: #25419B;
+  font-family: 'Parisienne', cursive !important;
+  font-size: 600%;
+  font-weight: 500;
+  padding-top: 5%;
+ 
+}
+
+.main-img {
+    padding-left: 20%;
+}
+
+.footer1 {
+    padding-top: 3%;
+    width: 80px;
+}
+
+.footer-rotation1 {
+  width: 80px;
+}
+
+.footer2 {
+  padding-top: 3%;
+}
+
+.footer-rotation2 {
+  transform: rotate(-15deg);
+  width: 80px;
+  
+}
+
+.footer3 {
+  padding-top: 3%;
+  
+}
+.footer-rotation3 {
+  transform: rotate(-30deg);
+    width: 80px;
+}
+
+.footer4 {
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.footer-rotation4 {
+  transform: rotate(-45deg);
+  width: 80px;
+}
+
+.footer5 {
+  padding-top: 3%;
+  padding-left: 20%;
+}
+
+.footer-rotation5 {
+  transform: rotate(-60deg);
+  width: 80px;
+}
+
+.main-button {
+  background: #801914 !important;
+  border: 5px solid #A77C51;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  width: 450px;
+ padding: 1% 1% 1% 0;
+}
+
+
+
+
+
+
