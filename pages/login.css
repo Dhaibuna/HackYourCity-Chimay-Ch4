@@ -46,6 +46,18 @@
     }
   }
 
+  @media (max-width: 1024px) {
+    .main-social-media {
+        padding-top: 14%;
+        }
+  }
+  
+  @media (min-width:1025px) {
+    .main-social-media {
+        padding-top: 10%;
+        }
+  }
+
   input {
     background: transparent !important;
     
@@ -107,10 +119,13 @@ input::-webkit-input-placeholder {
     padding-top: 60px;
   }
 
+  
+    
+
   .main-social-media-icon {
   padding-right: 5%;
   opacity: 0;
-  background-color: red !important;
+  background-color:#801914 !important;
   }
   
   .main-social-media-icon2 {
