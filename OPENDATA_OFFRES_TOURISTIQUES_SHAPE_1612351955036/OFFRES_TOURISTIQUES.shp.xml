@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordByIdResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2">
+  <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gmd:fileIdentifier>
+      <gco:CharacterString>91721175-5f01-410c-8c78-37c1d1893ba2</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/namespace/resources/codeList.xml#MD_CharacterSetCode" />
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+      <gco:CharacterString>Couche de données thématiques</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName>
+          <gco:CharacterString>Commissariat général au Tourisme (CGT)</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString>organisme@tourismewallonie.be</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:DateTime>2021-02-03T04:03:24</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString>2003/Cor 1:2006</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:code>
+              <gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/31370">EPSG:31370</gmx:Anchor>
+            </gmd:code>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString>Les offres touristiques en Wallonie</gco:CharacterString>
+            </gmd:title>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2020-04-27</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2021-02-03</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2021-02-03</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:identifier>
+              <gmd:RS_Identifier>
+                <gmd:code>
+                  <gco:CharacterString>91721175-5f01-410c-8c78-37c1d1893ba2</gco:CharacterString>
+                </gmd:code>
+                <gmd:codeSpace>
+                  <gco:CharacterString>http://geodata.wallonie.be/id/</gco:CharacterString>
+                </gmd:codeSpace>
+              </gmd:RS_Identifier>
+            </gmd:identifier>
+            <gmd:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gco:CharacterString>OFFRES_TOURISTIQUES</gco:CharacterString>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmd:identifier>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString>Ce jeu de données géographiques représente les offres touristiques wallonnes reconnues par le Commissariat Général au Tourisme (CGT).
+
+Le projet et la base de données PIVOT (Partage de l'Information pour la Valorisation de l'Offre Touristique) a été porté le Commissariat général au Tourisme depuis début 2009. Les principaux objectifs de ce projet PIVOT étaient la mutualisation et l'échange de l'information touristique wallonne, la création d'un véritable réseau entre les opérateurs touristiques wallons locaux et la mutualisation des développements d'outils informatiques spécifiques. La mise en place de cette plate-forme s’est traduite en 2012 par l’adhésion effective des 5 Fédérations touristiques provinciales, des 27 Maisons du Tourisme, de filières de produits touristiques telles que l’Horeca, Gîtes de Wallonie, etc.
+La base de données et les services associés PIVOT du CGT inventorient dès lors toutes les offres touristiques wallonnes reconnues. Ces offres sont éditées et mises à jour par les différents opérateurs touristiques locaux.
+Ce jeu de données géographiques reprend les types d’offres touristiques suivants :
+•	les hébergements (hôtels, gîtes, Chambres d’hôtes, Meublés, Campings, Budget Holidays, Villages de Vacances) ;
+•	les restaurants ;
+•	les loisirs / découvertes (découvertes / divertissements, points d’intérêt) ;
+•	les points d’accueil touristiques (organismes touristiques).
+A partir de ce jeu de données, on retrouve des informations détaillées comme le nom, l’adresse, le site Internet, le téléphone, etc. Chaque offre touristique comporte des coordonnées de base et est représentée par un pictogramme en fonction de la catégorie d’appartenance.</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:status>
+          <gmd:MD_ProgressCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+        </gmd:status>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString>Commissariat général au Tourisme (CGT)</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>organisme@tourismewallonie.be</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString>Commissariat général au Tourisme (CGT)</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>organisme@tourismewallonie.be</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString>Service public de Wallonie (SPW)</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>helpdesk.carto@spw.wallonie.be</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://geoportail.wallonie.be</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:name>
+                      <gco:CharacterString>Géoportail de la Wallonie</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                      <gco:CharacterString>Géoportail de la Wallonie</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                      <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                    </gmd:function>
+                  </gmd:CI_OnlineResource>
+                </gmd:onlineResource>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:resourceMaintenance>
+          <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+              <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual" />
+            </gmd:maintenanceAndUpdateFrequency>
+          </gmd:MD_MaintenanceInformation>
+        </gmd:resourceMaintenance>
+        <gmd:graphicOverview>
+          <gmd:MD_BrowseGraphic>
+            <gmd:fileName>
+              <gco:CharacterString>http://metawal.wallonie.be/geonetwork/srv/api/records/91721175-5f01-410c-8c78-37c1d1893ba2/attachments/OFFRES_TOURISTIQUES_IMG.png</gco:CharacterString>
+            </gmd:fileName>
+            <gmd:fileDescription>
+              <gco:CharacterString>OFFRES_TOURISTIQUES_IMG</gco:CharacterString>
+            </gmd:fileDescription>
+            <gmd:fileType>
+              <gco:CharacterString>PNG</gco:CharacterString>
+            </gmd:fileType>
+          </gmd:MD_BrowseGraphic>
+        </gmd:graphicOverview>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Tourisme et loisirs</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://metawal.wallonie.be/thesaurus/theme-geoportail-wallon#SubThemesGeoportailWallon/4010">Tourisme</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://metawal.wallonie.be/thesaurus/Themes_geoportail_wallon_hierarchy">Thèmes du géoportail wallon</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2012-02-03</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://metawal.wallonie.be/geonetwork/srv/api/registries/vocabularies/external.theme.Themes_geoportail_wallon_hierarchy">geonetwork.thesaurus.external.theme.Themes_geoportail_wallon_hierarchy</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>tourisme</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>commerce, services</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://geonetwork-opensource.org/gemet-theme">GEMET themes</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2009-09-22</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://metawal.wallonie.be/geonetwork/srv/api/registries/vocabularies/external.theme.gemet-theme">geonetwork.thesaurus.external.theme.gemet-theme</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>camping</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>vacances</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>loisirs</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>restauration</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>industrie hôtelière</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://geonetwork-opensource.org/gemet">GEMET</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2009-09-22</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://metawal.wallonie.be/geonetwork/srv/api/registries/vocabularies/external.theme.gemet">geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Offre touristique</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Hébergement</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Hôtel</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Gîte</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Chambre d'hôte</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Meublé</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Budget Holliday</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Village de vacances</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Restaurant</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Découvertes</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Divertissement</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Point d'intérêt</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>BDInfraSIG</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>PanierTelechargementGeoportail</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Open data</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://metawal.wallonie.be/thesaurus/infrasig">Mots-clés InfraSIG</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2018-04-23</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://metawal.wallonie.be/geonetwork/srv/api/registries/vocabularies/local.theme.infraSIG">geonetwork.thesaurus.local.theme.infraSIG</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:accessConstraints>
+              <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_RestrictionCode" codeListValue="license" />
+            </gmd:accessConstraints>
+            <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_RestrictionCode" codeListValue="license" />
+            </gmd:useConstraints>
+            <gmd:otherConstraints>
+              <gco:CharacterString>ACCÈS : Les conditions générales d'accès s’appliquent (https://geoportail.wallonie.be/files/documents/ConditionsSPW/DataSPW-CGA.pdf) UTILISATION : Les conditions générales d'utilisation s'appliquent (https://geoportail.wallonie.be/files/documents/ConditionsSPW/DataSPW-CGU.pdf)</gco:CharacterString>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:spatialRepresentationType>
+          <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+        </gmd:spatialRepresentationType>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+        </gmd:language>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:description>
+              <gco:CharacterString>Region wallonne</gco:CharacterString>
+            </gmd:description>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+                <gmd:westBoundLongitude>
+                  <gco:Decimal>2.75</gco:Decimal>
+                </gmd:westBoundLongitude>
+                <gmd:eastBoundLongitude>
+                  <gco:Decimal>6.50</gco:Decimal>
+                </gmd:eastBoundLongitude>
+                <gmd:southBoundLatitude>
+                  <gco:Decimal>49.45</gco:Decimal>
+                </gmd:southBoundLatitude>
+                <gmd:northBoundLatitude>
+                  <gco:Decimal>50.85</gco:Decimal>
+                </gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/media-types/application/x-shapefile">ESRI Shapefile (.shp)</gmx:Anchor>
+            </gmd:name>
+            <gmd:version gco:nilReason="unknown" />
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gmx:Anchor xlink:href="https://www.iana.org/assignments/media-types/application/geopackage+sqlite3">OGC GeoPackage (.gpkg)</gmx:Anchor>
+            </gmd:name>
+            <gmd:version gco:nilReason="unknown" />
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString>Service public de Wallonie (SPW)</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString>helpdesk.carto@spw.wallonie.be</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+            <gmd:distributionOrderProcess>
+              <gmd:MD_StandardOrderProcess>
+                <gmd:orderingInstructions>
+                  <gco:CharacterString>Si votre demande porte sur un format spécifique de donnée ou une partie spécifique du territoire, veuillez suivre les instructions d'obtention d'une copie physique d’une donnée détaillées sur https://geoportail.wallonie.be/telecharger. L’utilisation des géoservices est à privilégier.</gco:CharacterString>
+                </gmd:orderingInstructions>
+              </gmd:MD_StandardOrderProcess>
+            </gmd:distributionOrderProcess>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geoservices.wallonie.be/arcgis/rest/services/TOURISME/OFFRES_TOURISTIQUES/MapServer/legend</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Légende</gco:CharacterString>
+                </gmd:name>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information.portrayal" />
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geoportail.wallonie.be/walonmap/#ADU=https://geoservices.wallonie.be/arcgis/rest/services/TOURISME/OFFRES_TOURISTIQUES/MapServer</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Application WalOnMap - Toute la Wallonie à la carte</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Application cartographique du Geoportail (WalOnMap) qui permet de découvrir les données géographiques de la Wallonie.</gco:CharacterString>
+                </gmd:description>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geoservices.wallonie.be/arcgis/rest/services/TOURISME/OFFRES_TOURISTIQUES/MapServer</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>ESRI:REST</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Service de visualisation ESRI-REST</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Adresse de connexion au service de visualisation ESRI-REST de la couche de données "Les offres touristiques en Wallonie"</gco:CharacterString>
+                </gmd:description>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="browsing" />
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geoservices.wallonie.be/arcgis/services/TOURISME/OFFRES_TOURISTIQUES/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Service de visualisation WMS</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Adresse de connexion au service de visualisation WMS de la couche de données "Les offres touristiques en Wallonie"</gco:CharacterString>
+                </gmd:description>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="browsing" />
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://www.tourismewallonie.be</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Portail officiel du tourisme en Wallonie</gco:CharacterString>
+                </gmd:name>
+                <gmd:function>
+                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                </gmd:function>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:DQ_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ScopeCode" />
+            </gmd:level>
+          </gmd:DQ_Scope>
+        </gmd:scope>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:statement>
+              <gco:CharacterString>Les données issues de la base de données PIVOT sont spatialisées au travers de l’infrastructure d’information géographique mutualisée (InfraSIG) du Service Public de Wallonie (SPW) via l’interrogation de web services spécifiques sécurisés. La fréquence des mises à jour est quotidienne et un contrôle de qualité de positionnement relatif est réalisé ponctuellement.
+
+En tant qu’organisme assurant le suivi et l'encadrement, le CGT est néanmoins référencé comme gestionnaire principal de la donnée consolidée au sein du Géoportail de la Wallonie et des mises à jour éventuelles.</gco:CharacterString>
+            </gmd:statement>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:portrayalCatalogueInfo>
+      <gmd:MD_PortrayalCatalogueReference>
+        <gmd:portrayalCatalogueCitation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString>Légende</gco:CharacterString>
+            </gmd:title>
+            <gmd:date gco:nilReason="missing" />
+          </gmd:CI_Citation>
+        </gmd:portrayalCatalogueCitation>
+      </gmd:MD_PortrayalCatalogueReference>
+    </gmd:portrayalCatalogueInfo>
+  </gmd:MD_Metadata>
+</csw:GetRecordByIdResponse>
+
