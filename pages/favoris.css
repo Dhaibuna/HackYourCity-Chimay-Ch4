@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: #9D8A72;
+    background-color: #DACCBE;
   color: #25419B;
   padding-top: 4%;
   font-family: 'Raleway', sans-serif;
@@ -113,5 +113,13 @@
 
  
 
-  
+ .color1 {
+  background: #801914 !important;
+}
+
+
+
+.color2 {
+ background: #A77C51 !important;
+}
     

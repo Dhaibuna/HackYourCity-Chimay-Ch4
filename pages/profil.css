@@ -6,7 +6,7 @@
   
   body {
    
-    background-color: #6E5E4E;
+    background-color: #DACCBE;
     color: #25419B;
     padding-top: 8%;
     font-family: 'Raleway', sans-serif;
@@ -57,6 +57,7 @@
     }
     .etc {
         font-size: 300%;
+        color: #801914 !important;
     }
     
   }
@@ -126,3 +127,6 @@
     justify-content: space-around;
 }
 
+.button .bg-danger{
+ background-color:#801914 !important;
+}
