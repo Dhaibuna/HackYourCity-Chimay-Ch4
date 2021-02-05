@@ -146,4 +146,14 @@ input::-webkit-input-placeholder {
     width:100%;
     }
 
-  
+    a {
+      text-decoration: none;
+        color: #ffffff;
+        
+     }
+    
+     a:hover {
+      text-decoration: none;
+      color: #ffffff;
+      
+     }

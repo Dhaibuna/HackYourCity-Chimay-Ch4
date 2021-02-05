@@ -12,12 +12,6 @@ body {
 
  
 }
-/* 
-body, html {
-  height: 100%;
-  margin: 0;
-} */
-
 
 .main-title {
   color: #25419B;
@@ -124,7 +118,17 @@ body, html {
     font-size: 1.8vw;
   }
 }
+ a {
+  text-decoration: none;
+    color: #ffffff;
+    
+ }
 
+ a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  
+ }
 
 
 
