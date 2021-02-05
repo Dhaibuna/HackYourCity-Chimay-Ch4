@@ -62,6 +62,8 @@ input::-webkit-input-placeholder {
     font-size: 35px !important;
     font-family: 'Parisienne', cursive !important;
     text-align: center;
+    color: #25419B !important;
+    font-weight: bold;
    
 
 }
