@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   
+    background-color: #6E5E4E;
+    color: #25419B;
+    padding-top: 8%;
+    font-family: 'Raleway', sans-serif;
+  
+    
+  }
+
+  @media (max-width: 1024px) {
+    .head-text {
+        
+    margin-left: 4%;
+    }
+    .main-title {
+      font-size:12vw !important;
+      padding-top: 8%;
+    }
+    
+    .main-button {
+      width: 100%;
+      font-size: 4vw;
+      margin-top: 10%;
+    }
+    .icon {
+        font-size: 100%;
+        padding-top: 4%;
+    }
+    .etc {
+        font-size: 150%;
+    }
+    
+  }
+  
+  @media (min-width:1025px) {
+    .head-text {
+        font-size: 150%;
+    }
+    .main-title {
+      
+      font-size:6vw !important;
+    }
+   
+    .main-button {
+      width: 50%;
+      font-size: 1.8vw;
+    }
+    .icon {
+        font-size: 200%;
+    }
+    .etc {
+        font-size: 300%;
+    }
+    
+  }
+
+  .head {
+      border-bottom: 3px solid #801914 !important;
+  }
+
+  .main {
+    border-bottom: 3px solid #801914 !important;
+  }
+  
+  .main-title{
+    
+    font-family: 'Parisienne', cursive !important;
+   
+    font-weight: 500;
+    
+   
+  }
+  
+  
+  
+  img {
+   width: 60px;
+      
+  }
+  
+  .main-button  {
+   
+    font-family: 'Parisienne', cursive !important;
+    background: #801914 !important;
+    border: 5px solid #A77C51;
+    font-weight: 900;
+    
+   
+    
+  }
+
+  .main-button-icon {
+      padding-top: 6%;
+      padding-bottom: 6%;
+  }
+  
+  .button-footer {
+      padding-top: 8%;
+  }
+
+  i {
+    color:#801914 !important;
+  
+  }
+
+  .icon {
+      text-align:center;
+      
+    
+  }
+  
+ .main-icon {
+     display:flex;
+     justify-content: space-between;
+ }
+
+ .main-icon2 {
+    display:flex;
+    justify-content: space-around;
+}
+

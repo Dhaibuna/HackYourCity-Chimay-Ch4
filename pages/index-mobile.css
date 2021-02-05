@@ -5,51 +5,118 @@
 }
 
 body {
-  background: url("img/grand-place-chimay.svg");
+ 
   color: #25419B;
-  
-  background-position: center;
+  background: url("img/chateau-chimay.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  padding-top: 40px;
+  padding-top: 4%;
+ 
+
+  
 }
 
 .main-title{
   
   font-family: 'Parisienne', cursive !important;
-  font-size: 700%;
+ 
   font-weight: 500;
   
  
 }
 
+@media (max-width: 1024px) {
+  .main-title {
+    font-size:15vw !important;
+    padding-top: 8%;
+  }
+  img {
+    width: 40%;
+  }
+  .main-button {
+    width: 50%;
+    font-size: 7vw;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width:1025px) {
+  .main-title {
+    
+    font-size:6vw !important;
+  }
+  img {
+    width: 15%;
+  }
+  .main-button {
+    width: 40%;
+    font-size: 1.8vw;
+  }
+}
+
 .main-img {
-  padding-top: 20px;
-    padding-bottom: 90px;
+  padding-top: 5%;
+    padding-bottom: 7%;
+    
 }
 
 .main-button {
-  background: #801914 !important;
-  width: 50%;
-  height: 100%;
-  border: 5px solid #A77C51;
-  font-size: 50px;
+ 
   font-family: 'Parisienne', cursive !important;
+  background: #801914 !important;
+  border: 5px solid #A77C51;
   font-weight: 900;
+ padding: 1% 1% 1% 1%;
   
 }
+
 
 .main-text {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  padding-top: 60px;
+ 
 }
 
 .main-text2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  padding-top: 60px;
   font-family: 'Parisienne', cursive !important;
-  font-size: 250%;
   border-bottom: 4px solid #801914;
 
+}
+
+
+@media (max-width: 1024px) {
+  .main-text2 {
+    font-size: 7vw;
+    padding-top: 15%;
+
+  }
+  
+}
+
+@media (min-width:1025px) {
+  .main-text2 {
+    font-size: 2vw;
+    padding-top:7%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .main-text {
+    font-size: 4vw;
+    padding-top: 20%;
+
+  }
+  
+}
+
+@media (min-width:1025px) {
+  .main-text {
+    font-size: 1vw;
+    padding-top:5%;
+  }
 }
