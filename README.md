@@ -37,7 +37,7 @@ Ces mécanismes reprennent :
 
 ## Où est-ce que ca en est ? 
 
-Ce n'est absolument pas fini. Mais c'est un projet qui nous a vachement emballé et une phrase récurrente était : 
+Ce n'est absolument pas fini, notamment a cause du manque de connaissance en Back-end (Equipe composée de juniors F-E). Mais c'est un projet qui nous a vachement emballé et une phrase récurrente était : 
 
 > En vrai c'est quand même dommage, avec plus de temps on aurait pu faire vachement mieux, vachement plus complet... Westeros a Chimay quoi ! 
 
