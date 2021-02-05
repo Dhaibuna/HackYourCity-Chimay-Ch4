@@ -1,0 +1,2063 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bea319a29ac949c6a4d5bd5cda4f4a96 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bea319a29ac949c6a4d5bd5cda4f4a96" ></div>
+        
+</body>
+<script>    
+    
+            var map_bea319a29ac949c6a4d5bd5cda4f4a96 = L.map(
+                "map_bea319a29ac949c6a4d5bd5cda4f4a96",
+                {
+                    center: [50.01588, 4.37243],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_03ef5d3176374f54ab6d964a3632152e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var marker_5e38ccc7f30d4f37a776a1276987f293 = L.marker(
+                [50.01588, 4.37243],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_f3d593a7c40a46d88c48031ea12d0012 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5e38ccc7f30d4f37a776a1276987f293.setIcon(icon_f3d593a7c40a46d88c48031ea12d0012);
+        
+    
+        var popup_a6b1242fa59843329978fcd1db056ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0a8e2da7be04dc7b59ee1e63f16b967 = $(`<div id="html_a0a8e2da7be04dc7b59ee1e63f16b967" style="width: 100.0%; height: 100.0%;">Attrape Loup</div>`)[0];
+            popup_a6b1242fa59843329978fcd1db056ca5.setContent(html_a0a8e2da7be04dc7b59ee1e63f16b967);
+        
+
+        marker_5e38ccc7f30d4f37a776a1276987f293.bindPopup(popup_a6b1242fa59843329978fcd1db056ca5)
+        ;
+
+        
+    
+    
+            var marker_ad5b42b8fd7c489084e6c3896b1864ac = L.marker(
+                [50.01961, 4.37788],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_11866fff73d140c3a2878f27179d57e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ad5b42b8fd7c489084e6c3896b1864ac.setIcon(icon_11866fff73d140c3a2878f27179d57e6);
+        
+    
+        var popup_61d4b7313eab453981834d26c492f20f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a29aff2e0ca54745a82903482b8f6432 = $(`<div id="html_a29aff2e0ca54745a82903482b8f6432" style="width: 100.0%; height: 100.0%;">Traiteur "Gourman'Dim"</div>`)[0];
+            popup_61d4b7313eab453981834d26c492f20f.setContent(html_a29aff2e0ca54745a82903482b8f6432);
+        
+
+        marker_ad5b42b8fd7c489084e6c3896b1864ac.bindPopup(popup_61d4b7313eab453981834d26c492f20f)
+        ;
+
+        
+    
+    
+            var marker_177f63d956cd47b9a34192373bb8265a = L.marker(
+                [50.0252, 4.34098],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_609552d400974ea0a18e31d200736607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_177f63d956cd47b9a34192373bb8265a.setIcon(icon_609552d400974ea0a18e31d200736607);
+        
+    
+        var popup_ee0e771484314732adf57e68f86cf38d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_005420f80b204b2fbfaea73deff3bea6 = $(`<div id="html_005420f80b204b2fbfaea73deff3bea6" style="width: 100.0%; height: 100.0%;">Auberge de Poteaupré</div>`)[0];
+            popup_ee0e771484314732adf57e68f86cf38d.setContent(html_005420f80b204b2fbfaea73deff3bea6);
+        
+
+        marker_177f63d956cd47b9a34192373bb8265a.bindPopup(popup_ee0e771484314732adf57e68f86cf38d)
+        ;
+
+        
+    
+    
+            var marker_436fd6b42a794484b7cf850af99817f2 = L.marker(
+                [50.02575, 4.39866],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_dfd3df9e472a45839c5e8d7a879bcad0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_436fd6b42a794484b7cf850af99817f2.setIcon(icon_dfd3df9e472a45839c5e8d7a879bcad0);
+        
+    
+        var popup_f9517b2819b047529288f48de8b03fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aeabe2cecd54081a352a52b7c2854d5 = $(`<div id="html_8aeabe2cecd54081a352a52b7c2854d5" style="width: 100.0%; height: 100.0%;">Gîte de la Bruyère II</div>`)[0];
+            popup_f9517b2819b047529288f48de8b03fe6.setContent(html_8aeabe2cecd54081a352a52b7c2854d5);
+        
+
+        marker_436fd6b42a794484b7cf850af99817f2.bindPopup(popup_f9517b2819b047529288f48de8b03fe6)
+        ;
+
+        
+    
+    
+            var marker_8f80cde884684c00afa8b8e938031f4d = L.marker(
+                [50.0272, 4.341],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_1733ed5cad8948dfb8127a260cb3d3b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_8f80cde884684c00afa8b8e938031f4d.setIcon(icon_1733ed5cad8948dfb8127a260cb3d3b3);
+        
+    
+        var popup_485c07ee485b4edf8ea351ad555f725e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed5024ca86dc44e893653b8e004dcd6e = $(`<div id="html_ed5024ca86dc44e893653b8e004dcd6e" style="width: 100.0%; height: 100.0%;">La Ferme des 4 Saisons</div>`)[0];
+            popup_485c07ee485b4edf8ea351ad555f725e.setContent(html_ed5024ca86dc44e893653b8e004dcd6e);
+        
+
+        marker_8f80cde884684c00afa8b8e938031f4d.bindPopup(popup_485c07ee485b4edf8ea351ad555f725e)
+        ;
+
+        
+    
+    
+            var marker_2d875d4e0cc6421e95a421108c27551d = L.marker(
+                [50.02851, 4.40245],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_3e468ea56a5740a39886825a6b7bf3f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2d875d4e0cc6421e95a421108c27551d.setIcon(icon_3e468ea56a5740a39886825a6b7bf3f9);
+        
+    
+        var popup_7e452412a6cb4a9481d46bd9e6c28bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d02a9f661bbc4917b33d8da73cb72693 = $(`<div id="html_d02a9f661bbc4917b33d8da73cb72693" style="width: 100.0%; height: 100.0%;">Gîte de La Bruyère I</div>`)[0];
+            popup_7e452412a6cb4a9481d46bd9e6c28bd2.setContent(html_d02a9f661bbc4917b33d8da73cb72693);
+        
+
+        marker_2d875d4e0cc6421e95a421108c27551d.bindPopup(popup_7e452412a6cb4a9481d46bd9e6c28bd2)
+        ;
+
+        
+    
+    
+            var marker_90841b47a17f46ceb147588d1e5e7c78 = L.marker(
+                [50.0415, 4.38996],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_c7eaa195a7a84fa2b1f6ba4d20f353eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_90841b47a17f46ceb147588d1e5e7c78.setIcon(icon_c7eaa195a7a84fa2b1f6ba4d20f353eb);
+        
+    
+        var popup_4b97569a4e5943b2ab43bd87b9ef9a20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d482e7f4471442c9ac14f911a92a6a0f = $(`<div id="html_d482e7f4471442c9ac14f911a92a6a0f" style="width: 100.0%; height: 100.0%;">No Limit</div>`)[0];
+            popup_4b97569a4e5943b2ab43bd87b9ef9a20.setContent(html_d482e7f4471442c9ac14f911a92a6a0f);
+        
+
+        marker_90841b47a17f46ceb147588d1e5e7c78.bindPopup(popup_4b97569a4e5943b2ab43bd87b9ef9a20)
+        ;
+
+        
+    
+    
+            var marker_63dad24cc4374d7c96c0cf66990100b6 = L.marker(
+                [50.05248, 4.36232],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_38aa44dd8aea453dbfc2aabfac5456d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_63dad24cc4374d7c96c0cf66990100b6.setIcon(icon_38aa44dd8aea453dbfc2aabfac5456d3);
+        
+    
+        var popup_0317c44c9f974611b5c8e7996c2c6181 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_658c3e805e2345cdb40cd348427540da = $(`<div id="html_658c3e805e2345cdb40cd348427540da" style="width: 100.0%; height: 100.0%;">Aux Peupliers</div>`)[0];
+            popup_0317c44c9f974611b5c8e7996c2c6181.setContent(html_658c3e805e2345cdb40cd348427540da);
+        
+
+        marker_63dad24cc4374d7c96c0cf66990100b6.bindPopup(popup_0317c44c9f974611b5c8e7996c2c6181)
+        ;
+
+        
+    
+    
+            var marker_bb1e92f4b3c846d08863f4ff55b2124e = L.marker(
+                [49.94833, 4.43408],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_81f2bcfece1f4308876e4860042483d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_bb1e92f4b3c846d08863f4ff55b2124e.setIcon(icon_81f2bcfece1f4308876e4860042483d7);
+        
+    
+        var popup_58b3266d7804484892e04127334477ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e4edef6f7564892b91db059208783a1 = $(`<div id="html_0e4edef6f7564892b91db059208783a1" style="width: 100.0%; height: 100.0%;">Brasserie Escaillonne</div>`)[0];
+            popup_58b3266d7804484892e04127334477ea.setContent(html_0e4edef6f7564892b91db059208783a1);
+        
+
+        marker_bb1e92f4b3c846d08863f4ff55b2124e.bindPopup(popup_58b3266d7804484892e04127334477ea)
+        ;
+
+        
+    
+    
+            var marker_b387ab8629434348b5d320b6ef82c7d5 = L.marker(
+                [49.9561, 4.36625],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_37cbc66af2b64c068a66895bddb7a690 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b387ab8629434348b5d320b6ef82c7d5.setIcon(icon_37cbc66af2b64c068a66895bddb7a690);
+        
+    
+        var popup_8887d39751b540f6b754290229ce022a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24948e7c604d478399d6ebe0fee83524 = $(`<div id="html_24948e7c604d478399d6ebe0fee83524" style="width: 100.0%; height: 100.0%;">Musée du Grand Méchant Loup</div>`)[0];
+            popup_8887d39751b540f6b754290229ce022a.setContent(html_24948e7c604d478399d6ebe0fee83524);
+        
+
+        marker_b387ab8629434348b5d320b6ef82c7d5.bindPopup(popup_8887d39751b540f6b754290229ce022a)
+        ;
+
+        
+    
+    
+            var marker_e265f94ab4e5429684fa9fa6a0117fac = L.marker(
+                [49.96084, 4.37614],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_9e783bd959ee43748fad2f01d299cbbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_e265f94ab4e5429684fa9fa6a0117fac.setIcon(icon_9e783bd959ee43748fad2f01d299cbbf);
+        
+    
+        var popup_3ead0b97173a4909b652f79a71ff5706 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e67dc717a98149518a6e8021d2e4da17 = $(`<div id="html_e67dc717a98149518a6e8021d2e4da17" style="width: 100.0%; height: 100.0%;">Le Relais de Nimelette</div>`)[0];
+            popup_3ead0b97173a4909b652f79a71ff5706.setContent(html_e67dc717a98149518a6e8021d2e4da17);
+        
+
+        marker_e265f94ab4e5429684fa9fa6a0117fac.bindPopup(popup_3ead0b97173a4909b652f79a71ff5706)
+        ;
+
+        
+    
+    
+            var marker_42189fbdeb104e84bac42c216593d1f9 = L.marker(
+                [49.98306, 4.33739],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_18d72fe832fb44768f757476261e3743 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_42189fbdeb104e84bac42c216593d1f9.setIcon(icon_18d72fe832fb44768f757476261e3743);
+        
+    
+        var popup_2e8791a838424377a8f6439ac597574d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43094c66cf6d43559aa4fbd0cd6fd165 = $(`<div id="html_43094c66cf6d43559aa4fbd0cd6fd165" style="width: 100.0%; height: 100.0%;">Abbaye de Scourmont</div>`)[0];
+            popup_2e8791a838424377a8f6439ac597574d.setContent(html_43094c66cf6d43559aa4fbd0cd6fd165);
+        
+
+        marker_42189fbdeb104e84bac42c216593d1f9.bindPopup(popup_2e8791a838424377a8f6439ac597574d)
+        ;
+
+        
+    
+    
+            var marker_b6e2ca1f1b6b429794347fcc5647d7d4 = L.marker(
+                [49.98387, 4.34866],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_68d2aa0453bc4272984c2589dce719c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b6e2ca1f1b6b429794347fcc5647d7d4.setIcon(icon_68d2aa0453bc4272984c2589dce719c4);
+        
+    
+        var popup_af78a809cdc14a60882326bb446abfb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb88ff65f53141c3ae64651c3fa08b48 = $(`<div id="html_eb88ff65f53141c3ae64651c3fa08b48" style="width: 100.0%; height: 100.0%;">La Ferme des 4 Saisons</div>`)[0];
+            popup_af78a809cdc14a60882326bb446abfb5.setContent(html_eb88ff65f53141c3ae64651c3fa08b48);
+        
+
+        marker_b6e2ca1f1b6b429794347fcc5647d7d4.bindPopup(popup_af78a809cdc14a60882326bb446abfb5)
+        ;
+
+        
+    
+    
+            var marker_2e0dbbda03194f70b731e55a63c5cc9e = L.marker(
+                [49.98486, 4.35354],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_8fe14edcc13d4e32809a638eee40401d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2e0dbbda03194f70b731e55a63c5cc9e.setIcon(icon_8fe14edcc13d4e32809a638eee40401d);
+        
+    
+        var popup_33bca48023ad4250bcbde426a4a6de02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a0aefb986cb4266a2088920089e2374 = $(`<div id="html_4a0aefb986cb4266a2088920089e2374" style="width: 100.0%; height: 100.0%;">Le Maffe de Scourmont</div>`)[0];
+            popup_33bca48023ad4250bcbde426a4a6de02.setContent(html_4a0aefb986cb4266a2088920089e2374);
+        
+
+        marker_2e0dbbda03194f70b731e55a63c5cc9e.bindPopup(popup_33bca48023ad4250bcbde426a4a6de02)
+        ;
+
+        
+    
+    
+            var marker_70c228280cf8476a874811bdd0480c8f = L.marker(
+                [49.98865, 4.34177],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_9d4d4e7b438443ce8dbd80d437e0ba28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_70c228280cf8476a874811bdd0480c8f.setIcon(icon_9d4d4e7b438443ce8dbd80d437e0ba28);
+        
+    
+        var popup_54ac7c3c22244fbea2931f5ee492d3f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5416f243ebc498b9caf80cede502a47 = $(`<div id="html_d5416f243ebc498b9caf80cede502a47" style="width: 100.0%; height: 100.0%;">Chimay Experience</div>`)[0];
+            popup_54ac7c3c22244fbea2931f5ee492d3f3.setContent(html_d5416f243ebc498b9caf80cede502a47);
+        
+
+        marker_70c228280cf8476a874811bdd0480c8f.bindPopup(popup_54ac7c3c22244fbea2931f5ee492d3f3)
+        ;
+
+        
+    
+    
+            var marker_2e6d1ab39252408f8c6067e9ab4e9d0a = L.marker(
+                [49.98869, 4.342],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_4986825dbc92471797742ae2716d877c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2e6d1ab39252408f8c6067e9ab4e9d0a.setIcon(icon_4986825dbc92471797742ae2716d877c);
+        
+    
+        var popup_f903a42bc3ea483fb428be11b61403f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b29c1c6a1254a3fb30a6eb87fc3c09c = $(`<div id="html_5b29c1c6a1254a3fb30a6eb87fc3c09c" style="width: 100.0%; height: 100.0%;">Auberge de Poteaupré</div>`)[0];
+            popup_f903a42bc3ea483fb428be11b61403f1.setContent(html_5b29c1c6a1254a3fb30a6eb87fc3c09c);
+        
+
+        marker_2e6d1ab39252408f8c6067e9ab4e9d0a.bindPopup(popup_f903a42bc3ea483fb428be11b61403f1)
+        ;
+
+        
+    
+    
+            var marker_2189c05df21145b09836d8857a16a76d = L.marker(
+                [50.0649, 4.33394],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_251ccc2723884a9fa31ac9968c10deda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2189c05df21145b09836d8857a16a76d.setIcon(icon_251ccc2723884a9fa31ac9968c10deda);
+        
+    
+        var popup_8e806c757ecb42ea8d71114f86f1c2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_861bd9e55f9046469a7e07962c9de4fa = $(`<div id="html_861bd9e55f9046469a7e07962c9de4fa" style="width: 100.0%; height: 100.0%;">Grange aux papillons</div>`)[0];
+            popup_8e806c757ecb42ea8d71114f86f1c2b7.setContent(html_861bd9e55f9046469a7e07962c9de4fa);
+        
+
+        marker_2189c05df21145b09836d8857a16a76d.bindPopup(popup_8e806c757ecb42ea8d71114f86f1c2b7)
+        ;
+
+        
+    
+    
+            var marker_87806392f86a4125bbdfbdbdf295ad24 = L.marker(
+                [50.0665, 4.33702],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_45afd59e39da47bb91b788d5df70ec35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_87806392f86a4125bbdfbdbdf295ad24.setIcon(icon_45afd59e39da47bb91b788d5df70ec35);
+        
+    
+        var popup_082508deb3ef4341a1a3469ae5495bef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf3141af09cb4f5fb685acbe100355aa = $(`<div id="html_cf3141af09cb4f5fb685acbe100355aa" style="width: 100.0%; height: 100.0%;">La Bonne Auberge de Virelles</div>`)[0];
+            popup_082508deb3ef4341a1a3469ae5495bef.setContent(html_cf3141af09cb4f5fb685acbe100355aa);
+        
+
+        marker_87806392f86a4125bbdfbdbdf295ad24.bindPopup(popup_082508deb3ef4341a1a3469ae5495bef)
+        ;
+
+        
+    
+    
+            var marker_821eaad11a1a444cb45ed6ffca6aee40 = L.marker(
+                [50.0668, 4.33843],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_80ff55075dfe4eed9b0bd4efcb8a1862 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_821eaad11a1a444cb45ed6ffca6aee40.setIcon(icon_80ff55075dfe4eed9b0bd4efcb8a1862);
+        
+    
+        var popup_f7c69a99017642b9bf3606e3fc58d4ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9b13f99dbf648e6a7b5b44fec015ff3 = $(`<div id="html_e9b13f99dbf648e6a7b5b44fec015ff3" style="width: 100.0%; height: 100.0%;">Virelles Nature-Survivre dans la nature</div>`)[0];
+            popup_f7c69a99017642b9bf3606e3fc58d4ed.setContent(html_e9b13f99dbf648e6a7b5b44fec015ff3);
+        
+
+        marker_821eaad11a1a444cb45ed6ffca6aee40.bindPopup(popup_f7c69a99017642b9bf3606e3fc58d4ed)
+        ;
+
+        
+    
+    
+            var marker_b55ffc26a70c4c32af8e93e3b682f082 = L.marker(
+                [50.0668, 4.33843],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_55b0ac5595fc4394998222997990916f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b55ffc26a70c4c32af8e93e3b682f082.setIcon(icon_55b0ac5595fc4394998222997990916f);
+        
+    
+        var popup_3d770cd3d4a04134a24f084166ce772d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d1904d545a644a986f7e06724307847 = $(`<div id="html_7d1904d545a644a986f7e06724307847" style="width: 100.0%; height: 100.0%;">Cantine de l'Aquascope</div>`)[0];
+            popup_3d770cd3d4a04134a24f084166ce772d.setContent(html_7d1904d545a644a986f7e06724307847);
+        
+
+        marker_b55ffc26a70c4c32af8e93e3b682f082.bindPopup(popup_3d770cd3d4a04134a24f084166ce772d)
+        ;
+
+        
+    
+    
+            var marker_89bc6296a2f34962aa0c6ce2aa1da133 = L.marker(
+                [50.06716, 4.34035],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_0f87e117c56b49e99baaa9f43e60a317 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_89bc6296a2f34962aa0c6ce2aa1da133.setIcon(icon_0f87e117c56b49e99baaa9f43e60a317);
+        
+    
+        var popup_e89397a9606c4abc9c53836973114bde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a0ad6eaaf214347814281877272d25c = $(`<div id="html_0a0ad6eaaf214347814281877272d25c" style="width: 100.0%; height: 100.0%;">Edgard et Madeleine</div>`)[0];
+            popup_e89397a9606c4abc9c53836973114bde.setContent(html_0a0ad6eaaf214347814281877272d25c);
+        
+
+        marker_89bc6296a2f34962aa0c6ce2aa1da133.bindPopup(popup_e89397a9606c4abc9c53836973114bde)
+        ;
+
+        
+    
+    
+            var marker_ecf26f538a26429aaec554c3f4bac3d2 = L.marker(
+                [50.06795, 4.34387],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_56d3b6341ca74efeb12572f1bf3fb919 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ecf26f538a26429aaec554c3f4bac3d2.setIcon(icon_56d3b6341ca74efeb12572f1bf3fb919);
+        
+    
+        var popup_0e19821cb9984b6ab9f2f2ff8265d7a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb3b9d9f064446e79535d423ada7c9d8 = $(`<div id="html_eb3b9d9f064446e79535d423ada7c9d8" style="width: 100.0%; height: 100.0%;">Bouyard & Cie</div>`)[0];
+            popup_0e19821cb9984b6ab9f2f2ff8265d7a3.setContent(html_eb3b9d9f064446e79535d423ada7c9d8);
+        
+
+        marker_ecf26f538a26429aaec554c3f4bac3d2.bindPopup(popup_0e19821cb9984b6ab9f2f2ff8265d7a3)
+        ;
+
+        
+    
+    
+            var marker_a84c6a580e69428aae94a87dc8a46723 = L.marker(
+                [50.0694, 4.34689],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_2fa653de799b4f5daa146acba8be1e62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a84c6a580e69428aae94a87dc8a46723.setIcon(icon_2fa653de799b4f5daa146acba8be1e62);
+        
+    
+        var popup_58f54abd78f04edab83df24160418548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0bdfe88fbd541b3915726a5f29bd790 = $(`<div id="html_e0bdfe88fbd541b3915726a5f29bd790" style="width: 100.0%; height: 100.0%;">Aquascope Virelles</div>`)[0];
+            popup_58f54abd78f04edab83df24160418548.setContent(html_e0bdfe88fbd541b3915726a5f29bd790);
+        
+
+        marker_a84c6a580e69428aae94a87dc8a46723.bindPopup(popup_58f54abd78f04edab83df24160418548)
+        ;
+
+        
+    
+    
+            var marker_9a3480697afc44429721c4636ea781d4 = L.marker(
+                [50.06404, 4.3615],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_ba7a404df9d645318c562c150737846c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_9a3480697afc44429721c4636ea781d4.setIcon(icon_ba7a404df9d645318c562c150737846c);
+        
+    
+        var popup_19432a611729469c9c171213704121dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01bbcc9b9b28431d9de8a69e135a2720 = $(`<div id="html_01bbcc9b9b28431d9de8a69e135a2720" style="width: 100.0%; height: 100.0%;">La Parenthèse</div>`)[0];
+            popup_19432a611729469c9c171213704121dd.setContent(html_01bbcc9b9b28431d9de8a69e135a2720);
+        
+
+        marker_9a3480697afc44429721c4636ea781d4.bindPopup(popup_19432a611729469c9c171213704121dd)
+        ;
+
+        
+    
+    
+            var marker_ebb665e4053845dd969b8fe7b3de0900 = L.marker(
+                [50.06384, 4.37805],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_d76fd68c9d484cd6b11ffd8949fd299d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ebb665e4053845dd969b8fe7b3de0900.setIcon(icon_d76fd68c9d484cd6b11ffd8949fd299d);
+        
+    
+        var popup_906b28c1cece4175ab174a6a5b71f018 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99a03473cf044d2697ba52ffabee751b = $(`<div id="html_99a03473cf044d2697ba52ffabee751b" style="width: 100.0%; height: 100.0%;">L'Eau blanche</div>`)[0];
+            popup_906b28c1cece4175ab174a6a5b71f018.setContent(html_99a03473cf044d2697ba52ffabee751b);
+        
+
+        marker_ebb665e4053845dd969b8fe7b3de0900.bindPopup(popup_906b28c1cece4175ab174a6a5b71f018)
+        ;
+
+        
+    
+    
+            var marker_51c96eb36f1247debc75d7b3079dfb34 = L.marker(
+                [50.06409, 4.37839],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_952e07df3f724a2a9d438a153f1746c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_51c96eb36f1247debc75d7b3079dfb34.setIcon(icon_952e07df3f724a2a9d438a153f1746c9);
+        
+    
+        var popup_cb4c627e6e98458083ee712b7c55ec50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a5405f760234a07b33c992dba0ef9f3 = $(`<div id="html_7a5405f760234a07b33c992dba0ef9f3" style="width: 100.0%; height: 100.0%;">Lompret, un des Plus Beaux Villages de Wallonie</div>`)[0];
+            popup_cb4c627e6e98458083ee712b7c55ec50.setContent(html_7a5405f760234a07b33c992dba0ef9f3);
+        
+
+        marker_51c96eb36f1247debc75d7b3079dfb34.bindPopup(popup_cb4c627e6e98458083ee712b7c55ec50)
+        ;
+
+        
+    
+    
+            var marker_4facda69f9604083aa61362762240893 = L.marker(
+                [50.08836, 4.38098],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_b6cad745d502474da12e95359f1fda84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4facda69f9604083aa61362762240893.setIcon(icon_b6cad745d502474da12e95359f1fda84);
+        
+    
+        var popup_4abdfd06076c4f0da33499e08f79cae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_959252de564d47fa91bed4e5c6b395ac = $(`<div id="html_959252de564d47fa91bed4e5c6b395ac" style="width: 100.0%; height: 100.0%;">La Boerderij 3</div>`)[0];
+            popup_4abdfd06076c4f0da33499e08f79cae0.setContent(html_959252de564d47fa91bed4e5c6b395ac);
+        
+
+        marker_4facda69f9604083aa61362762240893.bindPopup(popup_4abdfd06076c4f0da33499e08f79cae0)
+        ;
+
+        
+    
+    
+            var marker_e44de87b2bdd4f40b441bf395d38a626 = L.marker(
+                [50.08836, 4.38098],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_886739f5e4014968b0eef06d421d58cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_e44de87b2bdd4f40b441bf395d38a626.setIcon(icon_886739f5e4014968b0eef06d421d58cb);
+        
+    
+        var popup_589d31bb986a4851b1ad562dc0899a00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1396d6ca93cf4439bc46d5e48ff2cb34 = $(`<div id="html_1396d6ca93cf4439bc46d5e48ff2cb34" style="width: 100.0%; height: 100.0%;">La Boerderij 2</div>`)[0];
+            popup_589d31bb986a4851b1ad562dc0899a00.setContent(html_1396d6ca93cf4439bc46d5e48ff2cb34);
+        
+
+        marker_e44de87b2bdd4f40b441bf395d38a626.bindPopup(popup_589d31bb986a4851b1ad562dc0899a00)
+        ;
+
+        
+    
+    
+            var marker_ec743e9f61f64aa594c191cf8bbe571d = L.marker(
+                [49.99368, 4.3145],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_a3efaaa272ec4fdc9085057c0a526252 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ec743e9f61f64aa594c191cf8bbe571d.setIcon(icon_a3efaaa272ec4fdc9085057c0a526252);
+        
+    
+        var popup_b594432aeaef46e9afd719128c87e365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c764e80d991d4095a8e9d0a63f084706 = $(`<div id="html_c764e80d991d4095a8e9d0a63f084706" style="width: 100.0%; height: 100.0%;">Camping: La Camargue</div>`)[0];
+            popup_b594432aeaef46e9afd719128c87e365.setContent(html_c764e80d991d4095a8e9d0a63f084706);
+        
+
+        marker_ec743e9f61f64aa594c191cf8bbe571d.bindPopup(popup_b594432aeaef46e9afd719128c87e365)
+        ;
+
+        
+    
+    
+            var marker_1c59c1f685944e77be578dbde1682ca9 = L.marker(
+                [50.01288, 4.31968],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_df3d333a8469418192b14aa194849f79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1c59c1f685944e77be578dbde1682ca9.setIcon(icon_df3d333a8469418192b14aa194849f79);
+        
+    
+        var popup_dfcd6f50845f4ab08da5e12bcfa678e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c98e57e3e784606a99e156816f00153 = $(`<div id="html_5c98e57e3e784606a99e156816f00153" style="width: 100.0%; height: 100.0%;">Les Etangs gourmands</div>`)[0];
+            popup_dfcd6f50845f4ab08da5e12bcfa678e9.setContent(html_5c98e57e3e784606a99e156816f00153);
+        
+
+        marker_1c59c1f685944e77be578dbde1682ca9.bindPopup(popup_dfcd6f50845f4ab08da5e12bcfa678e9)
+        ;
+
+        
+    
+    
+            var marker_286f4dc39e20430b9a722f8cf86526f7 = L.marker(
+                [50.0224, 4.32004],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_c376fc2e95db46e389ed870f5319b44c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_286f4dc39e20430b9a722f8cf86526f7.setIcon(icon_c376fc2e95db46e389ed870f5319b44c);
+        
+    
+        var popup_a4da1a93697c49c5a5695fb16a095670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7570797d6384e4f99d6b12616ca9981 = $(`<div id="html_a7570797d6384e4f99d6b12616ca9981" style="width: 100.0%; height: 100.0%;">La Camargue</div>`)[0];
+            popup_a4da1a93697c49c5a5695fb16a095670.setContent(html_a7570797d6384e4f99d6b12616ca9981);
+        
+
+        marker_286f4dc39e20430b9a722f8cf86526f7.bindPopup(popup_a4da1a93697c49c5a5695fb16a095670)
+        ;
+
+        
+    
+    
+            var marker_169d67e00c3f45fabee2a92a5041c5c3 = L.marker(
+                [50.02403, 4.3236],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_8e12e0bc159146c88c8978a88315084b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_169d67e00c3f45fabee2a92a5041c5c3.setIcon(icon_8e12e0bc159146c88c8978a88315084b);
+        
+    
+        var popup_d0f9966e88da4f8aae519cb1ed8dbda8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c627e731f3a43a2a80403549e3e19aa = $(`<div id="html_0c627e731f3a43a2a80403549e3e19aa" style="width: 100.0%; height: 100.0%;">Les Gallopins</div>`)[0];
+            popup_d0f9966e88da4f8aae519cb1ed8dbda8.setContent(html_0c627e731f3a43a2a80403549e3e19aa);
+        
+
+        marker_169d67e00c3f45fabee2a92a5041c5c3.bindPopup(popup_d0f9966e88da4f8aae519cb1ed8dbda8)
+        ;
+
+        
+    
+    
+            var marker_567646e435c54446b9bf1d169f4df7c3 = L.marker(
+                [50.02623, 4.32906],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_950e76607bd045cc96575c3a8495de8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_567646e435c54446b9bf1d169f4df7c3.setIcon(icon_950e76607bd045cc96575c3a8495de8c);
+        
+    
+        var popup_4343126986384b268ea9d390858c75e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_908acbfecfea4abaa0ece0088b9e97d3 = $(`<div id="html_908acbfecfea4abaa0ece0088b9e97d3" style="width: 100.0%; height: 100.0%;">Maison De Meyer</div>`)[0];
+            popup_4343126986384b268ea9d390858c75e2.setContent(html_908acbfecfea4abaa0ece0088b9e97d3);
+        
+
+        marker_567646e435c54446b9bf1d169f4df7c3.bindPopup(popup_4343126986384b268ea9d390858c75e2)
+        ;
+
+        
+    
+    
+            var marker_f6eab5a84bf34eeaa542259c17ebfd4e = L.marker(
+                [50.04369, 4.29987],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_61f37deb64fb4e17a96dc847e22c135e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f6eab5a84bf34eeaa542259c17ebfd4e.setIcon(icon_61f37deb64fb4e17a96dc847e22c135e);
+        
+    
+        var popup_ca84f532e8fd43b8b184166c361fb129 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f50a7dabda4747d2a230bf8d73810848 = $(`<div id="html_f50a7dabda4747d2a230bf8d73810848" style="width: 100.0%; height: 100.0%;">Le Jardin du Feuillet</div>`)[0];
+            popup_ca84f532e8fd43b8b184166c361fb129.setContent(html_f50a7dabda4747d2a230bf8d73810848);
+        
+
+        marker_f6eab5a84bf34eeaa542259c17ebfd4e.bindPopup(popup_ca84f532e8fd43b8b184166c361fb129)
+        ;
+
+        
+    
+    
+            var marker_feac60495bd4434092542930ff4428eb = L.marker(
+                [50.044, 4.30332],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_b6d8b3d177da40808b8495f024e9e00d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_feac60495bd4434092542930ff4428eb.setIcon(icon_b6d8b3d177da40808b8495f024e9e00d);
+        
+    
+        var popup_41199ebe1eda47f39eec566d74368074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ead8edc62aba4e0d99a7dc02f3a41437 = $(`<div id="html_ead8edc62aba4e0d99a7dc02f3a41437" style="width: 100.0%; height: 100.0%;">Le Moulin Henrot</div>`)[0];
+            popup_41199ebe1eda47f39eec566d74368074.setContent(html_ead8edc62aba4e0d99a7dc02f3a41437);
+        
+
+        marker_feac60495bd4434092542930ff4428eb.bindPopup(popup_41199ebe1eda47f39eec566d74368074)
+        ;
+
+        
+    
+    
+            var marker_34b5cb7e97fd4023bceb915a54b3a9c6 = L.marker(
+                [50.0445, 4.33107],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_036f5d2a38df40f189dfaedd680a9693 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_34b5cb7e97fd4023bceb915a54b3a9c6.setIcon(icon_036f5d2a38df40f189dfaedd680a9693);
+        
+    
+        var popup_3d5b470a6c924a53ad366a50c547d810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5f2d10ab8454448ad0a4b86057781e6 = $(`<div id="html_b5f2d10ab8454448ad0a4b86057781e6" style="width: 100.0%; height: 100.0%;">Meet Wok</div>`)[0];
+            popup_3d5b470a6c924a53ad366a50c547d810.setContent(html_b5f2d10ab8454448ad0a4b86057781e6);
+        
+
+        marker_34b5cb7e97fd4023bceb915a54b3a9c6.bindPopup(popup_3d5b470a6c924a53ad366a50c547d810)
+        ;
+
+        
+    
+    
+            var marker_683ac47c6f044416b5edad8d0633d27a = L.marker(
+                [50.04526, 4.31687],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_35f0ee31a01c4f6186d9e705548fc7ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_683ac47c6f044416b5edad8d0633d27a.setIcon(icon_35f0ee31a01c4f6186d9e705548fc7ee);
+        
+    
+        var popup_c7a0aa53cac64cada6235a5eef30b582 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e50806c78e8c47d0867747f141430aaa = $(`<div id="html_e50806c78e8c47d0867747f141430aaa" style="width: 100.0%; height: 100.0%;">Les Jeunes Pousses</div>`)[0];
+            popup_c7a0aa53cac64cada6235a5eef30b582.setContent(html_e50806c78e8c47d0867747f141430aaa);
+        
+
+        marker_683ac47c6f044416b5edad8d0633d27a.bindPopup(popup_c7a0aa53cac64cada6235a5eef30b582)
+        ;
+
+        
+    
+    
+            var marker_076a512be21c4164a4389e8e17b92a23 = L.marker(
+                [50.04545, 4.30568],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_fe0ea2bbb2474bd5bf1a069574e7b0fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_076a512be21c4164a4389e8e17b92a23.setIcon(icon_fe0ea2bbb2474bd5bf1a069574e7b0fe);
+        
+    
+        var popup_be2113641f8047adb3f7dbb22aa9fec5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_817f681fd7c540769b7f21817543500f = $(`<div id="html_817f681fd7c540769b7f21817543500f" style="width: 100.0%; height: 100.0%;">Hôme de l'Art - Mobilesem</div>`)[0];
+            popup_be2113641f8047adb3f7dbb22aa9fec5.setContent(html_817f681fd7c540769b7f21817543500f);
+        
+
+        marker_076a512be21c4164a4389e8e17b92a23.bindPopup(popup_be2113641f8047adb3f7dbb22aa9fec5)
+        ;
+
+        
+    
+    
+            var marker_5ef052e6ab2d46ddb2d07a6ecf7c0af9 = L.marker(
+                [50.04578, 4.30967],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_c04caeb66f734031ae63804ce9abdb95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5ef052e6ab2d46ddb2d07a6ecf7c0af9.setIcon(icon_c04caeb66f734031ae63804ce9abdb95);
+        
+    
+        var popup_394092b34bf348ac968bf137b44c058c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_076bef79748d465491d658c226ef1e06 = $(`<div id="html_076bef79748d465491d658c226ef1e06" style="width: 100.0%; height: 100.0%;">Camping de Chimay</div>`)[0];
+            popup_394092b34bf348ac968bf137b44c058c.setContent(html_076bef79748d465491d658c226ef1e06);
+        
+
+        marker_5ef052e6ab2d46ddb2d07a6ecf7c0af9.bindPopup(popup_394092b34bf348ac968bf137b44c058c)
+        ;
+
+        
+    
+    
+            var marker_7908d33327b84eb4ba0135d3d3b4ca7b = L.marker(
+                [50.047, 4.31838],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_f7d201ba939e4e08aacadc31e5685d50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_7908d33327b84eb4ba0135d3d3b4ca7b.setIcon(icon_f7d201ba939e4e08aacadc31e5685d50);
+        
+    
+        var popup_d94092469f424a2393530e9fdd83ed77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fffa98b005b4496a530e14cee8f60c8 = $(`<div id="html_2fffa98b005b4496a530e14cee8f60c8" style="width: 100.0%; height: 100.0%;">Espace Pizza</div>`)[0];
+            popup_d94092469f424a2393530e9fdd83ed77.setContent(html_2fffa98b005b4496a530e14cee8f60c8);
+        
+
+        marker_7908d33327b84eb4ba0135d3d3b4ca7b.bindPopup(popup_d94092469f424a2393530e9fdd83ed77)
+        ;
+
+        
+    
+    
+            var marker_03c162385cf245c1803c6906cddd190d = L.marker(
+                [50.04711, 4.31877],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_b9aa0f56ed5f4ce5aa40a3ab9753cd71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_03c162385cf245c1803c6906cddd190d.setIcon(icon_b9aa0f56ed5f4ce5aa40a3ab9753cd71);
+        
+    
+        var popup_a00e68c43ae4437d85c70eb859ea3593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4758cb79803c4de486d1b88686862135 = $(`<div id="html_4758cb79803c4de486d1b88686862135" style="width: 100.0%; height: 100.0%;">La Malterie</div>`)[0];
+            popup_a00e68c43ae4437d85c70eb859ea3593.setContent(html_4758cb79803c4de486d1b88686862135);
+        
+
+        marker_03c162385cf245c1803c6906cddd190d.bindPopup(popup_a00e68c43ae4437d85c70eb859ea3593)
+        ;
+
+        
+    
+    
+            var marker_8292183da7e1411783c706552750cde3 = L.marker(
+                [50.04713, 4.32081],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_b76f5334f2f5436cb14334e1c5bc78b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_8292183da7e1411783c706552750cde3.setIcon(icon_b76f5334f2f5436cb14334e1c5bc78b6);
+        
+    
+        var popup_6042e35e2a9945efae08a7df04430d25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc3bbbf2b9de46528b4e66f9f0bbe55c = $(`<div id="html_dc3bbbf2b9de46528b4e66f9f0bbe55c" style="width: 100.0%; height: 100.0%;">Dom-Bikes</div>`)[0];
+            popup_6042e35e2a9945efae08a7df04430d25.setContent(html_dc3bbbf2b9de46528b4e66f9f0bbe55c);
+        
+
+        marker_8292183da7e1411783c706552750cde3.bindPopup(popup_6042e35e2a9945efae08a7df04430d25)
+        ;
+
+        
+    
+    
+            var marker_594c97fc2b814012bb78c448d710dbfd = L.marker(
+                [50.04716, 4.32013],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_d7a2479701ff4ac4bce8e1417242827a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_594c97fc2b814012bb78c448d710dbfd.setIcon(icon_d7a2479701ff4ac4bce8e1417242827a);
+        
+    
+        var popup_41acafcf50814439b65704b1924cf9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dc4e82f9483415d9a429b1bd844f2c4 = $(`<div id="html_2dc4e82f9483415d9a429b1bd844f2c4" style="width: 100.0%; height: 100.0%;">Atelier vélo Mobilesem</div>`)[0];
+            popup_41acafcf50814439b65704b1924cf9f8.setContent(html_2dc4e82f9483415d9a429b1bd844f2c4);
+        
+
+        marker_594c97fc2b814012bb78c448d710dbfd.bindPopup(popup_41acafcf50814439b65704b1924cf9f8)
+        ;
+
+        
+    
+    
+            var marker_a712d62bdf7a4fc0ad8967c606078789 = L.marker(
+                [50.04724, 4.3136],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_29e7af57f65644389b38e8ae17790f16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a712d62bdf7a4fc0ad8967c606078789.setIcon(icon_29e7af57f65644389b38e8ae17790f16);
+        
+    
+        var popup_5487d00a2e63401b8e12c59fc0321a7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8294941feea64ebb9e676e8b76026311 = $(`<div id="html_8294941feea64ebb9e676e8b76026311" style="width: 100.0%; height: 100.0%;">Au Petit Nid Froissart</div>`)[0];
+            popup_5487d00a2e63401b8e12c59fc0321a7f.setContent(html_8294941feea64ebb9e676e8b76026311);
+        
+
+        marker_a712d62bdf7a4fc0ad8967c606078789.bindPopup(popup_5487d00a2e63401b8e12c59fc0321a7f)
+        ;
+
+        
+    
+    
+            var marker_80bae32fe75549fb9540386c323fc51e = L.marker(
+                [50.0473, 4.31363],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_b736346bbcd849d4965a2d3c954432df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_80bae32fe75549fb9540386c323fc51e.setIcon(icon_b736346bbcd849d4965a2d3c954432df);
+        
+    
+        var popup_0f41cfedab9e49578d4d76e21a87450c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61e6e2e786334d4ea4ec10ded6d65897 = $(`<div id="html_61e6e2e786334d4ea4ec10ded6d65897" style="width: 100.0%; height: 100.0%;">La Charlotte</div>`)[0];
+            popup_0f41cfedab9e49578d4d76e21a87450c.setContent(html_61e6e2e786334d4ea4ec10ded6d65897);
+        
+
+        marker_80bae32fe75549fb9540386c323fc51e.bindPopup(popup_0f41cfedab9e49578d4d76e21a87450c)
+        ;
+
+        
+    
+    
+            var marker_0d73afa2a02c4b1ca86ed6dce2fa7cd1 = L.marker(
+                [50.04746, 4.31913],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_fdcad569e9a04fe2bb669ac4803a6b91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0d73afa2a02c4b1ca86ed6dce2fa7cd1.setIcon(icon_fdcad569e9a04fe2bb669ac4803a6b91);
+        
+    
+        var popup_fba1695431bf491f8c6f36b7279c133d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5df13d60fccf48fb8407ffa750c25683 = $(`<div id="html_5df13d60fccf48fb8407ffa750c25683" style="width: 100.0%; height: 100.0%;">Le Relais</div>`)[0];
+            popup_fba1695431bf491f8c6f36b7279c133d.setContent(html_5df13d60fccf48fb8407ffa750c25683);
+        
+
+        marker_0d73afa2a02c4b1ca86ed6dce2fa7cd1.bindPopup(popup_fba1695431bf491f8c6f36b7279c133d)
+        ;
+
+        
+    
+    
+            var marker_2111522b9a3a4dd29c6c9fae41d99926 = L.marker(
+                [50.0475, 4.31418],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_dfb1b362c1874e899c648cdcae9ffc8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2111522b9a3a4dd29c6c9fae41d99926.setIcon(icon_dfb1b362c1874e899c648cdcae9ffc8f);
+        
+    
+        var popup_2bd827991e4f44e3b11a95328fd5b652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45e496b38b494c5499ab87e0e8d9cf60 = $(`<div id="html_45e496b38b494c5499ab87e0e8d9cf60" style="width: 100.0%; height: 100.0%;">Le Froissart</div>`)[0];
+            popup_2bd827991e4f44e3b11a95328fd5b652.setContent(html_45e496b38b494c5499ab87e0e8d9cf60);
+        
+
+        marker_2111522b9a3a4dd29c6c9fae41d99926.bindPopup(popup_2bd827991e4f44e3b11a95328fd5b652)
+        ;
+
+        
+    
+    
+            var marker_b8662488ee6d468783be0422c6149cf2 = L.marker(
+                [50.04758, 4.31645],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_56e9fab0cfe64d5eb5b15a068857c6ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b8662488ee6d468783be0422c6149cf2.setIcon(icon_56e9fab0cfe64d5eb5b15a068857c6ef);
+        
+    
+        var popup_583b03ac3a964d489171528ed8c35848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46739097d423414d95b8e481df033f5d = $(`<div id="html_46739097d423414d95b8e481df033f5d" style="width: 100.0%; height: 100.0%;">Brasserie du Casino</div>`)[0];
+            popup_583b03ac3a964d489171528ed8c35848.setContent(html_46739097d423414d95b8e481df033f5d);
+        
+
+        marker_b8662488ee6d468783be0422c6149cf2.bindPopup(popup_583b03ac3a964d489171528ed8c35848)
+        ;
+
+        
+    
+    
+            var marker_28f3a13095b84268ae288b4afd72cd59 = L.marker(
+                [50.048, 4.31825],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_03d6b7d360904d5c8738c43d30d3717d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_28f3a13095b84268ae288b4afd72cd59.setIcon(icon_03d6b7d360904d5c8738c43d30d3717d);
+        
+    
+        var popup_167468e2dea54654a7f92fee35a453cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6c8681c13144fec9442b9bb19f78b6b = $(`<div id="html_f6c8681c13144fec9442b9bb19f78b6b" style="width: 100.0%; height: 100.0%;">Petit Train Touristique de Chimay</div>`)[0];
+            popup_167468e2dea54654a7f92fee35a453cc.setContent(html_f6c8681c13144fec9442b9bb19f78b6b);
+        
+
+        marker_28f3a13095b84268ae288b4afd72cd59.bindPopup(popup_167468e2dea54654a7f92fee35a453cc)
+        ;
+
+        
+    
+    
+            var marker_91dc1957fff9404181c1d288c76dbaa4 = L.marker(
+                [50.04803, 4.3182],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_95d9483b63104b1da378ac3d6c941d1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_91dc1957fff9404181c1d288c76dbaa4.setIcon(icon_95d9483b63104b1da378ac3d6c941d1c);
+        
+    
+        var popup_9366a85afa8a45bcaf0f82c9296e02da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5c4bfb1bc4b428d82719ffb7908c23d = $(`<div id="html_e5c4bfb1bc4b428d82719ffb7908c23d" style="width: 100.0%; height: 100.0%;">Syndicat d'Initiative de Chimay</div>`)[0];
+            popup_9366a85afa8a45bcaf0f82c9296e02da.setContent(html_e5c4bfb1bc4b428d82719ffb7908c23d);
+        
+
+        marker_91dc1957fff9404181c1d288c76dbaa4.bindPopup(popup_9366a85afa8a45bcaf0f82c9296e02da)
+        ;
+
+        
+    
+    
+            var marker_56583973e11140cfa713dd98fbe0e5be = L.marker(
+                [50.04868, 4.31443],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_e019d5faaad842859b4ee6f7dabe268e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_56583973e11140cfa713dd98fbe0e5be.setIcon(icon_e019d5faaad842859b4ee6f7dabe268e);
+        
+    
+        var popup_ce34550870bc4f219ffb929d02c84cfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_044b815bb6434d51b3a6e83485fecf8c = $(`<div id="html_044b815bb6434d51b3a6e83485fecf8c" style="width: 100.0%; height: 100.0%;">Chimay Escape Room</div>`)[0];
+            popup_ce34550870bc4f219ffb929d02c84cfa.setContent(html_044b815bb6434d51b3a6e83485fecf8c);
+        
+
+        marker_56583973e11140cfa713dd98fbe0e5be.bindPopup(popup_ce34550870bc4f219ffb929d02c84cfa)
+        ;
+
+        
+    
+    
+            var marker_96603e26ef6f42b5b7b05fb268b02476 = L.marker(
+                [50.07342, 4.2329],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_8cda2612835c4666b68c8ffeeeec4756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_96603e26ef6f42b5b7b05fb268b02476.setIcon(icon_8cda2612835c4666b68c8ffeeeec4756);
+        
+    
+        var popup_0f39165be41442e2a813a1de9b59a457 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d850056da7094efd81399d2ae124e86e = $(`<div id="html_d850056da7094efd81399d2ae124e86e" style="width: 100.0%; height: 100.0%;">La Baie du Lièvre-Gîte à la Ferme</div>`)[0];
+            popup_0f39165be41442e2a813a1de9b59a457.setContent(html_d850056da7094efd81399d2ae124e86e);
+        
+
+        marker_96603e26ef6f42b5b7b05fb268b02476.bindPopup(popup_0f39165be41442e2a813a1de9b59a457)
+        ;
+
+        
+    
+    
+            var marker_70fa6e2913ec4e97af600ae0c63cb0f8 = L.marker(
+                [50.07342, 4.2329],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_eb9fb6de300743e1a9942696d4bb513a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_70fa6e2913ec4e97af600ae0c63cb0f8.setIcon(icon_eb9fb6de300743e1a9942696d4bb513a);
+        
+    
+        var popup_2d144f81e1f64191aac226ff413cddb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a079cdcbef4d4ed382ef7b202a0e3ddd = $(`<div id="html_a079cdcbef4d4ed382ef7b202a0e3ddd" style="width: 100.0%; height: 100.0%;">La Baie du Lièvre 1</div>`)[0];
+            popup_2d144f81e1f64191aac226ff413cddb0.setContent(html_a079cdcbef4d4ed382ef7b202a0e3ddd);
+        
+
+        marker_70fa6e2913ec4e97af600ae0c63cb0f8.bindPopup(popup_2d144f81e1f64191aac226ff413cddb0)
+        ;
+
+        
+    
+    
+            var marker_2ef4d9fea40f479cba14a21ecc096ffb = L.marker(
+                [50.07342, 4.2329],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_4b90c38022014e15bce05ed42e2e32e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2ef4d9fea40f479cba14a21ecc096ffb.setIcon(icon_4b90c38022014e15bce05ed42e2e32e9);
+        
+    
+        var popup_49fa09fd3af14fc7b0e23dfb2f3f7b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d68b5d2acd540d987d946cc103028e7 = $(`<div id="html_0d68b5d2acd540d987d946cc103028e7" style="width: 100.0%; height: 100.0%;">La Baie du Lièvre</div>`)[0];
+            popup_49fa09fd3af14fc7b0e23dfb2f3f7b7d.setContent(html_0d68b5d2acd540d987d946cc103028e7);
+        
+
+        marker_2ef4d9fea40f479cba14a21ecc096ffb.bindPopup(popup_49fa09fd3af14fc7b0e23dfb2f3f7b7d)
+        ;
+
+        
+    
+    
+            var marker_666c04c5ab154b2d87a9065fd240a26f = L.marker(
+                [50.07342, 4.2329],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_60975b543cca445c89af5a0f46b2f484 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_666c04c5ab154b2d87a9065fd240a26f.setIcon(icon_60975b543cca445c89af5a0f46b2f484);
+        
+    
+        var popup_79b6de3aad4f4526ab50685701b9262a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5da6a9d7cb36458b8b2fb4931262121e = $(`<div id="html_5da6a9d7cb36458b8b2fb4931262121e" style="width: 100.0%; height: 100.0%;">La Baie du Lièvre</div>`)[0];
+            popup_79b6de3aad4f4526ab50685701b9262a.setContent(html_5da6a9d7cb36458b8b2fb4931262121e);
+        
+
+        marker_666c04c5ab154b2d87a9065fd240a26f.bindPopup(popup_79b6de3aad4f4526ab50685701b9262a)
+        ;
+
+        
+    
+    
+            var marker_f0e6d7790ea74569b3e9901d00e2085a = L.marker(
+                [50.07263, 4.23384],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_c185235af7b64f8b89af498b8ad422f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f0e6d7790ea74569b3e9901d00e2085a.setIcon(icon_c185235af7b64f8b89af498b8ad422f4);
+        
+    
+        var popup_c57a9b73833244fea8dc2f3b0fb57681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc455b52ee904c0bbc9a553b4d8a86b4 = $(`<div id="html_bc455b52ee904c0bbc9a553b4d8a86b4" style="width: 100.0%; height: 100.0%;">La Baie du Lièvre</div>`)[0];
+            popup_c57a9b73833244fea8dc2f3b0fb57681.setContent(html_bc455b52ee904c0bbc9a553b4d8a86b4);
+        
+
+        marker_f0e6d7790ea74569b3e9901d00e2085a.bindPopup(popup_c57a9b73833244fea8dc2f3b0fb57681)
+        ;
+
+        
+    
+    
+            var marker_0e6951d318654cdc870ad1da7d4bb765 = L.marker(
+                [50.07263, 4.23384],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_0853718294454de28215ce48d0abe4b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0e6951d318654cdc870ad1da7d4bb765.setIcon(icon_0853718294454de28215ce48d0abe4b6);
+        
+    
+        var popup_3b22effab95946689c20c742e79a515a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bed0c027de2a47af93dd8bca5b0cbcc8 = $(`<div id="html_bed0c027de2a47af93dd8bca5b0cbcc8" style="width: 100.0%; height: 100.0%;">La Baie du Lièvre</div>`)[0];
+            popup_3b22effab95946689c20c742e79a515a.setContent(html_bed0c027de2a47af93dd8bca5b0cbcc8);
+        
+
+        marker_0e6951d318654cdc870ad1da7d4bb765.bindPopup(popup_3b22effab95946689c20c742e79a515a)
+        ;
+
+        
+    
+    
+            var marker_3251e82831be4e6aa2b2038e2b5b09b5 = L.marker(
+                [50.0557, 4.24635],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_a85f9c1204134b05a25a351568f0c332 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3251e82831be4e6aa2b2038e2b5b09b5.setIcon(icon_a85f9c1204134b05a25a351568f0c332);
+        
+    
+        var popup_0d39f68f8bb5484a921568d5fce361bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fb393cf0bd847a7bd40b851b8b320c1 = $(`<div id="html_4fb393cf0bd847a7bd40b851b8b320c1" style="width: 100.0%; height: 100.0%;">Le Snack St Antoine</div>`)[0];
+            popup_0d39f68f8bb5484a921568d5fce361bb.setContent(html_4fb393cf0bd847a7bd40b851b8b320c1);
+        
+
+        marker_3251e82831be4e6aa2b2038e2b5b09b5.bindPopup(popup_0d39f68f8bb5484a921568d5fce361bb)
+        ;
+
+        
+    
+    
+            var marker_5c0d492f95d24ed5aebc9271b0c79e0d = L.marker(
+                [50.07125, 4.2592],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_86375ba46ecf4aeb938221fd590b8a23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5c0d492f95d24ed5aebc9271b0c79e0d.setIcon(icon_86375ba46ecf4aeb938221fd590b8a23);
+        
+    
+        var popup_ffba02fabf8a4f248f48d2ccfe1a9e65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd045b9ad35f4c0e8ae6e958078aaeb2 = $(`<div id="html_cd045b9ad35f4c0e8ae6e958078aaeb2" style="width: 100.0%; height: 100.0%;">Camping: Mon Rêve</div>`)[0];
+            popup_ffba02fabf8a4f248f48d2ccfe1a9e65.setContent(html_cd045b9ad35f4c0e8ae6e958078aaeb2);
+        
+
+        marker_5c0d492f95d24ed5aebc9271b0c79e0d.bindPopup(popup_ffba02fabf8a4f248f48d2ccfe1a9e65)
+        ;
+
+        
+    
+    
+            var marker_aa8faedaaf864939ac454c7705d136ee = L.marker(
+                [50.08445, 4.26602],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_ae9de821febd402085a7191017a49670 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_aa8faedaaf864939ac454c7705d136ee.setIcon(icon_ae9de821febd402085a7191017a49670);
+        
+    
+        var popup_b0f9559aabf1444393ba23394dddd2f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb600eea3db54ce09d6e6aa382242fa1 = $(`<div id="html_bb600eea3db54ce09d6e6aa382242fa1" style="width: 100.0%; height: 100.0%;">Principauté de Chimay</div>`)[0];
+            popup_b0f9559aabf1444393ba23394dddd2f9.setContent(html_bb600eea3db54ce09d6e6aa382242fa1);
+        
+
+        marker_aa8faedaaf864939ac454c7705d136ee.bindPopup(popup_b0f9559aabf1444393ba23394dddd2f9)
+        ;
+
+        
+    
+    
+            var marker_c5b807d46885450da90c0b45dbe43c41 = L.marker(
+                [50.08446, 4.26602],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_b454b1d4926642f6be89e3948dc74c17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c5b807d46885450da90c0b45dbe43c41.setIcon(icon_b454b1d4926642f6be89e3948dc74c17);
+        
+    
+        var popup_dc1a2abc01d0489c8b8b492167150ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8077679514c042f6a02d52ed95596378 = $(`<div id="html_8077679514c042f6a02d52ed95596378" style="width: 100.0%; height: 100.0%;">Comme un trappeur</div>`)[0];
+            popup_dc1a2abc01d0489c8b8b492167150ff1.setContent(html_8077679514c042f6a02d52ed95596378);
+        
+
+        marker_c5b807d46885450da90c0b45dbe43c41.bindPopup(popup_dc1a2abc01d0489c8b8b492167150ff1)
+        ;
+
+        
+    
+    
+            var marker_64aba9151d4a47dfbfd7626d30b03015 = L.marker(
+                [50.08446, 4.26602],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_2b1af47ad8494264b3411c8b9e9f3026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_64aba9151d4a47dfbfd7626d30b03015.setIcon(icon_2b1af47ad8494264b3411c8b9e9f3026);
+        
+    
+        var popup_f0631f0faf50409a89e77507c54aaab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cd7030f7f53459994677dadbab88477 = $(`<div id="html_3cd7030f7f53459994677dadbab88477" style="width: 100.0%; height: 100.0%;">Séjour Trappeur-Survie</div>`)[0];
+            popup_f0631f0faf50409a89e77507c54aaab7.setContent(html_3cd7030f7f53459994677dadbab88477);
+        
+
+        marker_64aba9151d4a47dfbfd7626d30b03015.bindPopup(popup_f0631f0faf50409a89e77507c54aaab7)
+        ;
+
+        
+    
+    
+            var marker_7f5b3ad7d7fe4b938df4384839c5f8a6 = L.marker(
+                [50.0845, 4.26602],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_5d37793a959f4b5cbd362881f84146bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_7f5b3ad7d7fe4b938df4384839c5f8a6.setIcon(icon_5d37793a959f4b5cbd362881f84146bc);
+        
+    
+        var popup_98114a480b894d16bd57c4c8cb7ca9d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f15f254f77684e65a698d9a4dbf9f713 = $(`<div id="html_f15f254f77684e65a698d9a4dbf9f713" style="width: 100.0%; height: 100.0%;">Le Casino</div>`)[0];
+            popup_98114a480b894d16bd57c4c8cb7ca9d5.setContent(html_f15f254f77684e65a698d9a4dbf9f713);
+        
+
+        marker_7f5b3ad7d7fe4b938df4384839c5f8a6.bindPopup(popup_98114a480b894d16bd57c4c8cb7ca9d5)
+        ;
+
+        
+    
+    
+            var marker_2bf317ad873946a58c98b8f88be69d73 = L.marker(
+                [50.0845, 4.26602],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_bdb0aaff37a84e538516636f935c8e91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2bf317ad873946a58c98b8f88be69d73.setIcon(icon_bdb0aaff37a84e538516636f935c8e91);
+        
+    
+        var popup_cd6a93a0f8324d3899494bde20203c67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7e5618c39d942deaa9d7bfa132d5bdc = $(`<div id="html_b7e5618c39d942deaa9d7bfa132d5bdc" style="width: 100.0%; height: 100.0%;">Le Grand Café</div>`)[0];
+            popup_cd6a93a0f8324d3899494bde20203c67.setContent(html_b7e5618c39d942deaa9d7bfa132d5bdc);
+        
+
+        marker_2bf317ad873946a58c98b8f88be69d73.bindPopup(popup_cd6a93a0f8324d3899494bde20203c67)
+        ;
+
+        
+    
+    
+            var marker_4d9a51b49da34540b0c2da0b4090a011 = L.marker(
+                [50.07013, 4.29426],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_9c4e2a250a7742ef93a056c39ef4afc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4d9a51b49da34540b0c2da0b4090a011.setIcon(icon_9c4e2a250a7742ef93a056c39ef4afc9);
+        
+    
+        var popup_9d4c284d03d5474da9ebab99cb0ff9f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4172841eb0b4fa3b782095773e0ef9e = $(`<div id="html_f4172841eb0b4fa3b782095773e0ef9e" style="width: 100.0%; height: 100.0%;">Le Beauchamp</div>`)[0];
+            popup_9d4c284d03d5474da9ebab99cb0ff9f6.setContent(html_f4172841eb0b4fa3b782095773e0ef9e);
+        
+
+        marker_4d9a51b49da34540b0c2da0b4090a011.bindPopup(popup_9d4c284d03d5474da9ebab99cb0ff9f6)
+        ;
+
+        
+    
+    
+            var marker_087c1fa199e448f2a52371d8180991b3 = L.marker(
+                [50.07009, 4.29446],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_f6354f50b5704453acad752b4b945b86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_087c1fa199e448f2a52371d8180991b3.setIcon(icon_f6354f50b5704453acad752b4b945b86);
+        
+    
+        var popup_35b828a6f72c4c0a9686cc47bdbc6e8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2643630728044d2f983d7bc710246cde = $(`<div id="html_2643630728044d2f983d7bc710246cde" style="width: 100.0%; height: 100.0%;">Taverne-restaurant du Circuit</div>`)[0];
+            popup_35b828a6f72c4c0a9686cc47bdbc6e8e.setContent(html_2643630728044d2f983d7bc710246cde);
+        
+
+        marker_087c1fa199e448f2a52371d8180991b3.bindPopup(popup_35b828a6f72c4c0a9686cc47bdbc6e8e)
+        ;
+
+        
+    
+    
+            var marker_2aa3d9dbc8c645f58ad69f113f0a746e = L.marker(
+                [50.0499, 4.31132],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_826f4095f9f34d67b3d5c0909cdb7632 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2aa3d9dbc8c645f58ad69f113f0a746e.setIcon(icon_826f4095f9f34d67b3d5c0909cdb7632);
+        
+    
+        var popup_e94241b80e74433aba4d9d805702060a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3743ee6eb4d54f7fb5d986539bb34222 = $(`<div id="html_3743ee6eb4d54f7fb5d986539bb34222" style="width: 100.0%; height: 100.0%;">La Foulque</div>`)[0];
+            popup_e94241b80e74433aba4d9d805702060a.setContent(html_3743ee6eb4d54f7fb5d986539bb34222);
+        
+
+        marker_2aa3d9dbc8c645f58ad69f113f0a746e.bindPopup(popup_e94241b80e74433aba4d9d805702060a)
+        ;
+
+        
+    
+    
+            var marker_a560e87a9bfb4f5b9c579e7ede27082a = L.marker(
+                [50.04905, 4.31354],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_78b388798d234098bf8eef2c8df9f451 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a560e87a9bfb4f5b9c579e7ede27082a.setIcon(icon_78b388798d234098bf8eef2c8df9f451);
+        
+    
+        var popup_57c7ed0a501d42909e5b1a7a4ba42496 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a7cec439f44a0690849e34e04c843c = $(`<div id="html_54a7cec439f44a0690849e34e04c843c" style="width: 100.0%; height: 100.0%;">Château des Princes de Chimay</div>`)[0];
+            popup_57c7ed0a501d42909e5b1a7a4ba42496.setContent(html_54a7cec439f44a0690849e34e04c843c);
+        
+
+        marker_a560e87a9bfb4f5b9c579e7ede27082a.bindPopup(popup_57c7ed0a501d42909e5b1a7a4ba42496)
+        ;
+
+        
+    
+    
+            var marker_2c855f42ade84c7eae80a45c3e50ef7b = L.marker(
+                [50.0492, 4.31404],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_dc0bd30a3b63475ba37b28159a0ae959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2c855f42ade84c7eae80a45c3e50ef7b.setIcon(icon_dc0bd30a3b63475ba37b28159a0ae959);
+        
+    
+        var popup_c0484970750c4262bae3df20102b3ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f9d5f4c117546e78ecb8e754fd24b94 = $(`<div id="html_1f9d5f4c117546e78ecb8e754fd24b94" style="width: 100.0%; height: 100.0%;">Lo'riginal</div>`)[0];
+            popup_c0484970750c4262bae3df20102b3ae5.setContent(html_1f9d5f4c117546e78ecb8e754fd24b94);
+        
+
+        marker_2c855f42ade84c7eae80a45c3e50ef7b.bindPopup(popup_c0484970750c4262bae3df20102b3ae5)
+        ;
+
+        
+    
+    
+            var marker_dc8bdcb6799f440fa9e240ccd197193f = L.marker(
+                [50.04893, 4.31432],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_cfc3847ef6494d989fff96dfbcd8cb81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_dc8bdcb6799f440fa9e240ccd197193f.setIcon(icon_cfc3847ef6494d989fff96dfbcd8cb81);
+        
+    
+        var popup_e853ea33b5554bee97b93fd5b47acbb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f1472d588f14cfe87802e841ce10b67 = $(`<div id="html_5f1472d588f14cfe87802e841ce10b67" style="width: 100.0%; height: 100.0%;">Gîte de la Principauté</div>`)[0];
+            popup_e853ea33b5554bee97b93fd5b47acbb1.setContent(html_5f1472d588f14cfe87802e841ce10b67);
+        
+
+        marker_dc8bdcb6799f440fa9e240ccd197193f.bindPopup(popup_e853ea33b5554bee97b93fd5b47acbb1)
+        ;
+
+        
+    
+    
+            var marker_69585810b1b345938063770cafbe1a0c = L.marker(
+                [50.04868, 4.31443],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_d3fba2e48ea048839b7713c5590c85c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_69585810b1b345938063770cafbe1a0c.setIcon(icon_d3fba2e48ea048839b7713c5590c85c0);
+        
+    
+        var popup_8730a1417e7a4e169e5ca2d33e698ead = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7c04c7dd0444aa285d6aee43e9744fd = $(`<div id="html_c7c04c7dd0444aa285d6aee43e9744fd" style="width: 100.0%; height: 100.0%;">Le secret de Chimay</div>`)[0];
+            popup_8730a1417e7a4e169e5ca2d33e698ead.setContent(html_c7c04c7dd0444aa285d6aee43e9744fd);
+        
+
+        marker_69585810b1b345938063770cafbe1a0c.bindPopup(popup_8730a1417e7a4e169e5ca2d33e698ead)
+        ;
+
+        
+    
+    
+            var marker_c50ae3810ba74749823b6262147b99fb = L.marker(
+                [50.049, 4.31505],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_73cc29d24aa947a49cd3c15ab01f67ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c50ae3810ba74749823b6262147b99fb.setIcon(icon_73cc29d24aa947a49cd3c15ab01f67ac);
+        
+    
+        var popup_e79ac20672ff4edd9dbaf8f4501a92d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21026c3ee8af4635943d0032a5a99884 = $(`<div id="html_21026c3ee8af4635943d0032a5a99884" style="width: 100.0%; height: 100.0%;">Aux Millésimes</div>`)[0];
+            popup_e79ac20672ff4edd9dbaf8f4501a92d3.setContent(html_21026c3ee8af4635943d0032a5a99884);
+        
+
+        marker_c50ae3810ba74749823b6262147b99fb.bindPopup(popup_e79ac20672ff4edd9dbaf8f4501a92d3)
+        ;
+
+        
+    
+    
+            var marker_47a223a1ad2744feaca74cbde083c716 = L.marker(
+                [50.049, 4.31505],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_d4f4117b8dbe43aca3d8035e43dac156 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_47a223a1ad2744feaca74cbde083c716.setIcon(icon_d4f4117b8dbe43aca3d8035e43dac156);
+        
+    
+        var popup_e64c0d7b0c4744dabd6b48cd8f2b798a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c25e250329a9401f887e24d086d92914 = $(`<div id="html_c25e250329a9401f887e24d086d92914" style="width: 100.0%; height: 100.0%;">La Chimassiette</div>`)[0];
+            popup_e64c0d7b0c4744dabd6b48cd8f2b798a.setContent(html_c25e250329a9401f887e24d086d92914);
+        
+
+        marker_47a223a1ad2744feaca74cbde083c716.bindPopup(popup_e64c0d7b0c4744dabd6b48cd8f2b798a)
+        ;
+
+        
+    
+    
+            var marker_702c4f3c30a14ee384c964cdf4fadc6b = L.marker(
+                [50.04963, 4.31645],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_67bc99fe436842c0a0daf85d7bea3f1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_702c4f3c30a14ee384c964cdf4fadc6b.setIcon(icon_67bc99fe436842c0a0daf85d7bea3f1a);
+        
+    
+        var popup_89c6d159ba8c47509b0e72080fee7879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31d9f579291741c6a8f492906738f6b9 = $(`<div id="html_31d9f579291741c6a8f492906738f6b9" style="width: 100.0%; height: 100.0%;">Le Petit Chapitre - Chambre Opéra</div>`)[0];
+            popup_89c6d159ba8c47509b0e72080fee7879.setContent(html_31d9f579291741c6a8f492906738f6b9);
+        
+
+        marker_702c4f3c30a14ee384c964cdf4fadc6b.bindPopup(popup_89c6d159ba8c47509b0e72080fee7879)
+        ;
+
+        
+    
+    
+            var marker_92314ea3df2c417bb3a01abddd6002bb = L.marker(
+                [50.04963, 4.31645],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_4e66ff5f2caf47b4b78606c2002ec784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_92314ea3df2c417bb3a01abddd6002bb.setIcon(icon_4e66ff5f2caf47b4b78606c2002ec784);
+        
+    
+        var popup_49d7925220474bae806b571bf9c79b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15b25a65d321406392262fc7697cda07 = $(`<div id="html_15b25a65d321406392262fc7697cda07" style="width: 100.0%; height: 100.0%;">Le Petit Chapitre - Chambre aux Oiseaux</div>`)[0];
+            popup_49d7925220474bae806b571bf9c79b2d.setContent(html_15b25a65d321406392262fc7697cda07);
+        
+
+        marker_92314ea3df2c417bb3a01abddd6002bb.bindPopup(popup_49d7925220474bae806b571bf9c79b2d)
+        ;
+
+        
+    
+    
+            var marker_ea00e773a56244059f22116fe4472aa4 = L.marker(
+                [50.04963, 4.31645],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_63b7b2f00e0845009129e1351cd8e8e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ea00e773a56244059f22116fe4472aa4.setIcon(icon_63b7b2f00e0845009129e1351cd8e8e9);
+        
+    
+        var popup_161bc07e5e5e4f97875c1cfb3cf656e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdb0b2bef90a433db631416b958114cf = $(`<div id="html_bdb0b2bef90a433db631416b958114cf" style="width: 100.0%; height: 100.0%;">Le Petit Chapitre - Chambre Antoinette</div>`)[0];
+            popup_161bc07e5e5e4f97875c1cfb3cf656e7.setContent(html_bdb0b2bef90a433db631416b958114cf);
+        
+
+        marker_ea00e773a56244059f22116fe4472aa4.bindPopup(popup_161bc07e5e5e4f97875c1cfb3cf656e7)
+        ;
+
+        
+    
+    
+            var marker_b5ed776e7b054b54bf7ce156b78685ab = L.marker(
+                [50.04963, 4.31645],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_98ea300c20da4e6995dd523c8673c702 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b5ed776e7b054b54bf7ce156b78685ab.setIcon(icon_98ea300c20da4e6995dd523c8673c702);
+        
+    
+        var popup_117db6f74148442f9e2a45ebd73afe2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9094e6de8b9545a38a3246d959027a16 = $(`<div id="html_9094e6de8b9545a38a3246d959027a16" style="width: 100.0%; height: 100.0%;">Le Petit Chapitre- Chambre Coton</div>`)[0];
+            popup_117db6f74148442f9e2a45ebd73afe2e.setContent(html_9094e6de8b9545a38a3246d959027a16);
+        
+
+        marker_b5ed776e7b054b54bf7ce156b78685ab.bindPopup(popup_117db6f74148442f9e2a45ebd73afe2e)
+        ;
+
+        
+    
+    
+            var marker_ef0b3244520645cbb276583ec9b805d2 = L.marker(
+                [50.04963, 4.31645],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_9c81e1d8490542c3ab480efc520b6ad8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ef0b3244520645cbb276583ec9b805d2.setIcon(icon_9c81e1d8490542c3ab480efc520b6ad8);
+        
+    
+        var popup_1a61ac9f429f4740a35e200211be7467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_686d62141c63484fb8c75373f8427c1b = $(`<div id="html_686d62141c63484fb8c75373f8427c1b" style="width: 100.0%; height: 100.0%;">Le Petit Chapitre - Chambre Bleue</div>`)[0];
+            popup_1a61ac9f429f4740a35e200211be7467.setContent(html_686d62141c63484fb8c75373f8427c1b);
+        
+
+        marker_ef0b3244520645cbb276583ec9b805d2.bindPopup(popup_1a61ac9f429f4740a35e200211be7467)
+        ;
+
+        
+    
+    
+            var marker_4f2cc82d28784864bd8cdaf090bffb26 = L.marker(
+                [50.04916, 4.31731],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_9c2a72c6252f4aaeaaa6fea7ff3f9e5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4f2cc82d28784864bd8cdaf090bffb26.setIcon(icon_9c2a72c6252f4aaeaaa6fea7ff3f9e5c);
+        
+    
+        var popup_aec0d90e3e124455bfb01002402a9650 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9b54e8c7db9471a861b89a3e22de517 = $(`<div id="html_d9b54e8c7db9471a861b89a3e22de517" style="width: 100.0%; height: 100.0%;">Collégiale Saints Pierre et Paul</div>`)[0];
+            popup_aec0d90e3e124455bfb01002402a9650.setContent(html_d9b54e8c7db9471a861b89a3e22de517);
+        
+
+        marker_4f2cc82d28784864bd8cdaf090bffb26.bindPopup(popup_aec0d90e3e124455bfb01002402a9650)
+        ;
+
+        
+    
+    
+            var marker_998bd143f56c4a33bacbc9fd471e3d34 = L.marker(
+                [50.04916, 4.32062],
+                {}
+            ).addTo(map_bea319a29ac949c6a4d5bd5cda4f4a96);
+        
+    
+            var icon_a22dcbcdbb8f457b8a325f35bc3ba8e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_998bd143f56c4a33bacbc9fd471e3d34.setIcon(icon_a22dcbcdbb8f457b8a325f35bc3ba8e5);
+        
+    
+        var popup_629e667b687c41ba8ad3e782ef7d002e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99198f75e20848d0942403b6961734f8 = $(`<div id="html_99198f75e20848d0942403b6961734f8" style="width: 100.0%; height: 100.0%;">But Sport</div>`)[0];
+            popup_629e667b687c41ba8ad3e782ef7d002e.setContent(html_99198f75e20848d0942403b6961734f8);
+        
+
+        marker_998bd143f56c4a33bacbc9fd471e3d34.bindPopup(popup_629e667b687c41ba8ad3e782ef7d002e)
+        ;
+
+        
+    
+</script>
