@@ -61,17 +61,9 @@
             padding: 1% !important;
         }
   }
-
-
  .main-sidebar {
  border-bottom: 2px solid #A77C51;
  }
-
-
-  
-
-
-
   
   .main-title{
     font-family: 'Parisienne', cursive !important;
@@ -111,7 +103,14 @@
     padding-top: 2%;
  }
 
- 
+ .color1 {
+   background: #801914 !important;
+ }
 
   
     
+ .color2 {
+  background: #A77C51 !important;
+}
+
+ 
