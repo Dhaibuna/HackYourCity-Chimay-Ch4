@@ -34,7 +34,7 @@ Ces mécanismes reprennent :
 
 - **Chat** : En parlant d'interactivité. Un système de Chat serait disponible. On pourrait y voir le niveau des personnes et donc, leur connaissance de la Ville. On pourrait également pourquoi pas après avoir échangé avec la personne, avoir la possibilité d'avoir sa localisation : Discuter de son aventure de la journée autour d'une Chimay bleue, qui dit mieux ? 
 
-
+## [Voir](https://dhaibuna.github.io/HackYourCity-Chimay-Ch4/)
 ## Où est-ce que ca en est ? 
 
 Ce n'est absolument pas fini, notamment a cause du manque de connaissance en Back-end (Equipe composée de juniors F-E). Mais c'est un projet qui nous a vachement emballé et une phrase récurrente était : 
