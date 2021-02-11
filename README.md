@@ -2,7 +2,7 @@
 
 ## Contexte : Hackathon *Hack-your-city*
 
-Challenge de Hackathon *Hack-your-city*. Notre équipe HJ1921 a été choisie pour réalisé le challenge proposé par l'administration de la ville de **Chimay**. 
+Challenge de Hackathon *Hack-your-city*. Notre équipe HJ1921 a été choisie pour réaliser le challenge proposé par l'administration de la ville de **Chimay**. 
 
 En Belgique, nombreux sont les endroits ne disposant pas d'une reconnaissance     
 suffisante en ce qui concerne leur patrimoine, qu'il soit culturel ou culinaire. 
