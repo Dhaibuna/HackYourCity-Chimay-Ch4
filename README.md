@@ -14,6 +14,8 @@ historique riche, mais encore méconnu de beaucoup.
 La richesse culturelle de **Chimay**, de part son héritage médiéval et le challenge proposé par l'adminisatration de la ville ont 
 inspiré : *Chimai* . Oui Chimai, avec un -i parce que c'est tout simplement "Chimay" en Wallon, langue qui fait *in fine* partie de l'ADN du territoire wallon et de ses habitants.
 
+## [Voir](https://dhaibuna.github.io/HackYourCity-Chimay-Ch4/)
+
 ## Equipe: Les quatre mousquetaires
 
 [Richard Denys](https://github.com/Richyden): Game Designer - TeamLeader. Il aime raconter des histoires.      
@@ -34,7 +36,6 @@ Ces mécanismes reprennent :
 
 - **Chat** : En parlant d'interactivité. Un système de Chat serait disponible. On pourrait y voir le niveau des personnes et donc, leur connaissance de la Ville. On pourrait également pourquoi pas après avoir échangé avec la personne, avoir la possibilité d'avoir sa localisation : Discuter de son aventure de la journée autour d'une Chimay bleue, qui dit mieux ? 
 
-## [Voir](https://dhaibuna.github.io/HackYourCity-Chimay-Ch4/)
 ## Où est-ce que ca en est ? 
 
 Ce n'est absolument pas fini, notamment a cause du manque de connaissance en Back-end (Equipe composée de juniors F-E). Mais c'est un projet qui nous a vachement emballé et une phrase récurrente était : 
